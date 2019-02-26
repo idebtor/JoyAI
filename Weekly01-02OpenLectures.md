@@ -25,7 +25,7 @@
 
 ## 1. [How we teach computers to understand pictures](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures#t-1816)
 - Speaker: Fei Fei Li (Computer scientist)
-- 17:59
+- 17:59   
 - When a very young child looks at a picture, she can identify simple elements: "cat," "book," "chair." Now, computers are getting smart enough to do that too. What's next? In a thrilling talk, computer vision expert Fei-Fei Li describes the state of the art — including the database of 15 million photos her team built to "teach" a computer to understand pictures — and the key insights yet to come.
 - 영문 + 한글 자막 지원
 
