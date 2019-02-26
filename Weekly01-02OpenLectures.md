@@ -21,7 +21,7 @@
 
 
 --------------------------------
-# Machine Learning - Oject Recognitions
+# Machine Learning - Object Recognitions
 
 ## 1. [How we teach computers to understand pictures](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures#t-1816)
 - Speaker: Fei Fei Li (Computer scientist)
