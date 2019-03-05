@@ -103,7 +103,7 @@ After installation of __GitHub Desktop__, be a member if already not.
 
 ## A few ways to start Jupyter notebook
 
-Method 1:
+__Method 1__:
 
   1. Using File Explorer, navigate to where your Jupyter notebook file is
   2. Using File menu in File Explorer, click Open PowerShell(PS).
@@ -112,24 +112,27 @@ Method 1:
   PS C:\> jupyter notebook
   ```
 
-Method 2:
+__Method 2__:
   1. Using Anaconda Navigator, choose Jupyter Notebook.
 
-Method 3: Make an association .ipynb extension with Jupyter Notebook.
-  1. python3 -m pip install nbopen
+__Method 3__: Make an association .ipynb extension with Jupyter Notebook.
+  1. python -m pip install nbopen
   2. To integrate with your file manager, so you can double click on notebooks to open them, run:
-    - Linux/BSD: python3 -m nbopen.install_xdg
-    - Windows: python3 -m nbopen.install_win
+
+    - Linux/BSD: python -m nbopen.install_xdg
+
+    - Windows: python -m nbopen.install_win
+
     - Mac: Clone the [repository](https://github.com/takluyver/nbopen) and run ./osx-install.sh
 
-Method 4:
+__Method 4__:
   1. Double-click if you have _start_ipynb.bat in your folder.
 
-__JoyNote__: Which one do you like? My choice is Method 3.
+-----------------------------------------------
 
 ## Are ready for cloning another open-source program in GitHub?
 
-Let's clone a open-source code that starts a web server and a browser page interface getting user's hand-writing digits and recognize them interactively.
+Let's clone some open-source packages that uses with MNIST dataset and classifies user's hand-writing digits interactively.
 
   - Clone the following two github sites
 
@@ -138,15 +141,17 @@ Let's clone a open-source code that starts a web server and a browser page inter
   https://github.com/rhammell/mnist-draw
   ```
 
-#### Drawing-Mnist-and-Cifarizing-image-files
-Once you clone this source code, you may see the folder named `Drawing-Mnist-and-Cifarizing-image-files` and ipynb files in the folder.
+### Drawing-Mnist-and-Cifarizing-image-files
+Once you clone this source code, you may see the folder named `Drawing-Mnist-and-Cifarizing-image-files` and ipynb files in your local folder.
 
-This code provides a simple notebook for drawing onto a blank canvas so that a user may create their own test samples to input into a trained neural net in Keras. Some code borrowed from Francois Chollet `https://github.com/fchollet`
+The following Jupyter notebook code provides a blank canvas in the notebook so that a user may create their own test samples to input into a trained neural net in Keras. Some code borrowed from Francois Chollet `https://github.com/fchollet`
 
-  - Run `DrawMyOwnNumbers.ipynb`  
+  - Run the code cells one by one in `DrawMyOwnNumbers.ipynb`
+  - If you see some error messages, read and attempt to resolve the problems.
+  - You may be asked to install more packages/modules. Then how would you do?
 
-#### minist-draw
-  - (I experienced a difficulty to run this program in some machine.)
+### Minist-draw
+  - (I am still experiencing a difficulty to run this program in some machine.)
 
   - Follow the instructions in README.
     Then you may be able to start a web server and display a web page that has a user interface getting user's hand-writing digits and recognize them interactively.
