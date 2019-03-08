@@ -51,9 +51,10 @@ Do the following in cmd windows or in PowerShell to check your successful instal
       ```
 
 #### Need more installation?
-Use the following command if you need more installation of packages:
+Use the following command if you need more installation of packages (-U for upgrade only):
   ```
   $ pip install a_package_name
+  $ pip install -U a_package_name              
   ```
 
 ## Install GitHub Desktop
@@ -62,12 +63,12 @@ After installation of __GitHub Desktop__, be a member if already not.
   - Clone the GitHub `JoyAI` repository into your local computer:
     - https://github.com/idebtor/JoyAI  
 
-  - __How to clone a repository from GitHub:
+  - How to clone a repository from GitHub:
 
       - Refer to [this site](https://help.github.com/desktop/guides/contributing-to-projects/cloning-a-repository-from-github-desktop/).
   - Click __'watch'__ and __'star'__ at the top of the web page^^.
 
-  - Then, in your computer, you may have the following github/JoyAI folder as shown below:
+  - Then, in your computer, you may have the following github/JoyAI folder as shown below (`user` may be different in your system.):
     - ```C:\Users\user\Documents\GitHub\JoyAI```
 
   - Since this `JoyAI` repository can be updated anytime, keep this local repository as "read-only".  Don't code yours here!.
@@ -104,7 +105,11 @@ After installation of __GitHub Desktop__, be a member if already not.
 ## A few ways to start Jupyter notebook
 
 __Method 1__:
+  1. Using Anaconda Navigator, choose Jupyter Notebook.
 
+__Method 2__:
+
+(This option may not work unless you have set PATH environment variable.)
   1. Using File Explorer, navigate to where your Jupyter notebook file is
   2. Using File menu in File Explorer, click Open PowerShell(PS).
   3. At PS console, enter the following:
@@ -112,11 +117,10 @@ __Method 1__:
   PS C:\> jupyter notebook
   ```
 
-__Method 2__:
-  1. Using Anaconda Navigator, choose Jupyter Notebook.
+__Method 3__:
 
-__Method 3__: Make an association .ipynb extension with Jupyter Notebook.
-  1. python -m pip install nbopen
+Make an association .ipynb extension with Jupyter Notebook.
+  1. `python -m pip install nbopen`
   2. To integrate with your file manager, so you can double click on notebooks to open them, run:
 
     - Linux/BSD: python -m nbopen.install_xdg
@@ -126,7 +130,8 @@ __Method 3__: Make an association .ipynb extension with Jupyter Notebook.
     - Mac: Clone the [repository](https://github.com/takluyver/nbopen) and run ./osx-install.sh
 
 __Method 4__:
-  1. Double-click if you have _start_ipynb.bat in your folder.
+This is one-line batch command file that runs Jupyter notebook.
+  1. Double-click if you have `_start_ipynb.bat` in your folder.
 
 -----------------------------------------------
 
