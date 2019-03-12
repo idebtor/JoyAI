@@ -118,6 +118,12 @@ __Method 2__:
   ```
 
 __Method 3__:
+This is one-line batch command file that runs Jupyter notebook.
+  1. Get a copy of the batch file `start_ipynb.bat` which is available at https://github.com/idebtor/JoyAI
+  2. Place the batch file at the folder where your notebook file is. 
+  3. Double-click the batch file.
+  
+__Method 4__: (unstable)
 
 Make an association .ipynb extension with Jupyter Notebook.
   1. `python -m pip install nbopen`
@@ -129,9 +135,7 @@ Make an association .ipynb extension with Jupyter Notebook.
 
     - Mac: Clone the [repository](https://github.com/takluyver/nbopen) and run ./osx-install.sh
 
-__Method 4__:
-This is one-line batch command file that runs Jupyter notebook.
-  1. Double-click if you have `_start_ipynb.bat` in your folder.
+
 
 -----------------------------------------------
 
@@ -155,8 +159,8 @@ The following Jupyter notebook code provides a blank canvas in the notebook so t
   - If you see some error messages, read and attempt to resolve the problems.
   - You may be asked to install more packages/modules. Then how would you do?
 
-### Minist-draw
-  - (I am still experiencing a difficulty to run this program in some machine.)
+### Minist-draw (unstable) 
+  - (I am still experiencing a difficulty to run this program in some machines.)
 
   - Follow the instructions in README.
     Then you may be able to start a web server and display a web page that has a user interface getting user's hand-writing digits and recognize them interactively.
