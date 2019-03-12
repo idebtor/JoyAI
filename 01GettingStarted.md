@@ -34,9 +34,9 @@ Anaconda is  a Python and R distribution package. It aims to provide everything 
   - Visit website [Anaconda Distribution](https://www.anaconda.com/distribution/)
     - Choose one of Windows/MacOS/Linux
     - Python 3.x Version Download
-  - Need help? Follow [this guide](https://m.blog.naver.com/PostView.nhn?blogId=jooostory&logNo=221196479998&proxyReferer=https%3A%2F%2Fwww.google.com%2F).
   - At the beginning of installation, check the following option
-      - Add Anaconda to my PATH environment variable    
+      - Add Anaconda to my PATH environment variable  
+  - Need help? Follow [this guide](https://m.blog.naver.com/PostView.nhn?blogId=jooostory&logNo=221196479998&proxyReferer=https%3A%2F%2Fwww.google.com%2F).
 
 #### After your installation
 Do the following in cmd windows or in PowerShell to check your successful installation; ($ is just a prompt of your console, >>> is a prompt from Python.)
@@ -90,6 +90,32 @@ After installation of __GitHub Desktop__, be a member if already not.
       C:\Users\user\AppData\Roaming\GitHub Desktop\window-state.json
       ```
 
+## Install Atom.
+  1. Atom is a text editor that most professional programmers love nowadays.
+  2. Start Atom.
+  3. Install some of essential packages recommended for C/C++ programmers listed below:
+
+    - Autosave
+      - It automatically saves files when the editors loses focus, are destroyed, or when the window is closed. Believe or not, it is disabled by default. __You must check `enabled`__ in config setting or from the Autosave section of the Settings view.
+
+    - Markdown-preview
+      - Open a rendered version of the Markdown in the current editor with `ctrl-shift-m`.
+    - File-icons
+    - Mini-maps
+
+    __Themes of my personal preference__:
+      - UI Theme: __Atom Dark__
+      - Syntax Theme: __Oceanic Next__
+
+    __Note for Multi-screen users:__
+
+    If Atom is displayed off-screen, do the following:
+      1. Alt + Tab to choose the atom window
+      2. Alt + Space to open the context menu
+      3. Press 'm' to select move
+      4. Press any arrow key once
+      5. Move your mouse (The misplaced window will follow your cursor.)
+
 ## Are ready for 'Hello World!' program in Python?
   - Open a console. (You may use cmd or powershell in Windows.)  
 
@@ -120,9 +146,9 @@ __Method 2__:
 __Method 3__:
 This is one-line batch command file that runs Jupyter notebook.
   1. Get a copy of the batch file `start_ipynb.bat` which is available at https://github.com/idebtor/JoyAI
-  2. Place the batch file at the folder where your notebook file is. 
+  2. Place the batch file at the folder where your notebook file is.
   3. Double-click the batch file.
-  
+
 __Method 4__: (unstable)
 
 Make an association .ipynb extension with Jupyter Notebook.
@@ -159,7 +185,7 @@ The following Jupyter notebook code provides a blank canvas in the notebook so t
   - If you see some error messages, read and attempt to resolve the problems.
   - You may be asked to install more packages/modules. Then how would you do?
 
-### Minist-draw (unstable) 
+### Minist-draw (unstable)
   - (I am still experiencing a difficulty to run this program in some machines.)
 
   - Follow the instructions in README.
