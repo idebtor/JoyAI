@@ -34,9 +34,9 @@ Anaconda is  a Python and R distribution package. It aims to provide everything 
   - Visit website [Anaconda Distribution](https://www.anaconda.com/distribution/)
     - Choose one of Windows/MacOS/Linux
     - Python 3.x Version Download
-  - Need help? Follow [this guide](https://m.blog.naver.com/PostView.nhn?blogId=jooostory&logNo=221196479998&proxyReferer=https%3A%2F%2Fwww.google.com%2F).
   - At the beginning of installation, check the following option
-      - Add Anaconda to my PATH environment variable    
+      - Add Anaconda to my PATH environment variable  
+  - Need help? Follow [this guide](https://m.blog.naver.com/PostView.nhn?blogId=jooostory&logNo=221196479998&proxyReferer=https%3A%2F%2Fwww.google.com%2F).
 
 #### After your installation
 Do the following in cmd windows or in PowerShell to check your successful installation; ($ is just a prompt of your console, >>> is a prompt from Python.)
@@ -51,9 +51,10 @@ Do the following in cmd windows or in PowerShell to check your successful instal
       ```
 
 #### Need more installation?
-Use the following command if you need more installation of packages:
+Use the following command if you need more installation of packages (-U for upgrade only):
   ```
   $ pip install a_package_name
+  $ pip install -U a_package_name              
   ```
 
 ## Install GitHub Desktop
@@ -62,12 +63,12 @@ After installation of __GitHub Desktop__, be a member if already not.
   - Clone the GitHub `JoyAI` repository into your local computer:
     - https://github.com/idebtor/JoyAI  
 
-  - __How to clone a repository from GitHub:
+  - How to clone a repository from GitHub:
 
       - Refer to [this site](https://help.github.com/desktop/guides/contributing-to-projects/cloning-a-repository-from-github-desktop/).
   - Click __'watch'__ and __'star'__ at the top of the web page^^.
 
-  - Then, in your computer, you may have the following github/JoyAI folder as shown below:
+  - Then, in your computer, you may have the following github/JoyAI folder as shown below (`user` may be different in your system.):
     - ```C:\Users\user\Documents\GitHub\JoyAI```
 
   - Since this `JoyAI` repository can be updated anytime, keep this local repository as "read-only".  Don't code yours here!.
@@ -89,6 +90,32 @@ After installation of __GitHub Desktop__, be a member if already not.
       C:\Users\user\AppData\Roaming\GitHub Desktop\window-state.json
       ```
 
+## Install Atom.
+  1. Atom is a text editor that most professional programmers love nowadays.
+  2. Start Atom.
+  3. Install some of essential packages recommended for C/C++ programmers listed below:
+
+    - Autosave
+      - It automatically saves files when the editors loses focus, are destroyed, or when the window is closed. Believe or not, it is disabled by default. __You must check `enabled`__ in config setting or from the Autosave section of the Settings view.
+
+    - Markdown-preview
+      - Open a rendered version of the Markdown in the current editor with `ctrl-shift-m`.
+    - File-icons
+    - Mini-maps
+
+    __Themes of my personal preference__:
+      - UI Theme: __Atom Dark__
+      - Syntax Theme: __Oceanic Next__
+
+    __Note for Multi-screen users:__
+
+    If Atom is displayed off-screen, do the following:
+      1. Alt + Tab to choose the atom window
+      2. Alt + Space to open the context menu
+      3. Press 'm' to select move
+      4. Press any arrow key once
+      5. Move your mouse (The misplaced window will follow your cursor.)
+
 ## Are ready for 'Hello World!' program in Python?
   - Open a console. (You may use cmd or powershell in Windows.)  
 
@@ -104,7 +131,11 @@ After installation of __GitHub Desktop__, be a member if already not.
 ## A few ways to start Jupyter notebook
 
 __Method 1__:
+  1. Using Anaconda Navigator, choose Jupyter Notebook.
 
+__Method 2__:
+
+(This option may not work unless you have set PATH environment variable.)
   1. Using File Explorer, navigate to where your Jupyter notebook file is
   2. Using File menu in File Explorer, click Open PowerShell(PS).
   3. At PS console, enter the following:
@@ -112,11 +143,16 @@ __Method 1__:
   PS C:\> jupyter notebook
   ```
 
-__Method 2__:
-  1. Using Anaconda Navigator, choose Jupyter Notebook.
+__Method 3__:
+This is one-line batch command file that runs Jupyter notebook.
+  1. Get a copy of the batch file `start_ipynb.bat` which is available at https://github.com/idebtor/JoyAI
+  2. Place the batch file at the folder where your notebook file is.
+  3. Double-click the batch file.
 
-__Method 3__: Make an association .ipynb extension with Jupyter Notebook.
-  1. python -m pip install nbopen
+__Method 4__: (unstable)
+
+Make an association .ipynb extension with Jupyter Notebook.
+  1. `python -m pip install nbopen`
   2. To integrate with your file manager, so you can double click on notebooks to open them, run:
 
     - Linux/BSD: python -m nbopen.install_xdg
@@ -125,8 +161,7 @@ __Method 3__: Make an association .ipynb extension with Jupyter Notebook.
 
     - Mac: Clone the [repository](https://github.com/takluyver/nbopen) and run ./osx-install.sh
 
-__Method 4__:
-  1. Double-click if you have _start_ipynb.bat in your folder.
+
 
 -----------------------------------------------
 
@@ -150,8 +185,8 @@ The following Jupyter notebook code provides a blank canvas in the notebook so t
   - If you see some error messages, read and attempt to resolve the problems.
   - You may be asked to install more packages/modules. Then how would you do?
 
-### Minist-draw
-  - (I am still experiencing a difficulty to run this program in some machine.)
+### Minist-draw (unstable)
+  - (I am still experiencing a difficulty to run this program in some machines.)
 
   - Follow the instructions in README.
     Then you may be able to start a web server and display a web page that has a user interface getting user's hand-writing digits and recognize them interactively.
