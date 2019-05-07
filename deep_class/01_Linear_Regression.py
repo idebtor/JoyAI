@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# %load 01_Linear_Regression.py
 import numpy as np
 
 # x 값과 y값
@@ -32,3 +32,7 @@ b = my - (mx*a)
 # 출력으로 확인
 print("기울기 a =", a)
 print("y 절편 b =", b)
+
+xline = np.arange(0, 10, 0.1)
+yline = a * xline + b
+plot_hour2grade(x, y, xline, yline)
