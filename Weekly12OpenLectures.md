@@ -27,9 +27,9 @@
   - 영어 + 영어 자막
 
 ## 4장 Optional [backpropagation calculus](https://www.youtube.com/watch?v=tIeHLnjs5U8&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=4)
-- This one is a bit more symbol heavy, and that's actually the point.  The goal here is to represent in somewhat more formal terms the intuition for how backpropagation works in part 3 of the series, hopefully providing some connection between that video and other texts/code that you come across later.
 - Speaker: 3Blue1Brown
 - 10:17 (조회 0.7 million)
+- This one is a bit more symbol heavy, and that's actually the point.  The goal here is to represent in somewhat more formal terms the intuition for how backpropagation works in part 3 of the series, hopefully providing some connection between that video and other texts/code that you come across later.
 - 영어 + 영어 자막
 
 ## Optional [심화 학습과 텐서플로루 특강 Tensorflow and deep learning](https://www.youtube.com/watch?v=vq2nnJ4g6N0)
