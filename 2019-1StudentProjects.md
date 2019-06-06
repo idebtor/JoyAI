@@ -18,7 +18,6 @@
   3. 지난 1년 동안의 daily 데이터셋을 통해 보다 정확한 예측이 가능함.
 
 
-
 ##  특징
 
   1. COMEX(뉴욕상품거래소) 기준으로  달러/트로이온스(US dollar per troy ounce) 단위에 따른 정보 예측.
@@ -39,9 +38,164 @@
 
   1조_프로젝트.zip
 
+--------------------------------------
+
+# Team Project 4조 - MCTS를 활용한 인공지능 TicTacToe 개발
+
+장재근(21400659) / 이화평(21800608)
+--------------------------------------------
+### < 프로젝트 소개 >
+- 몬테카를로 트리 탐색(MCTS) 및 UCT 알고리즘을 이용한 인공지능 TICTACTOE게임 프로그램 제작
+
+### <다루게 될 기술>
+- Python
+
+### < 프로젝트 개요 >
+- 몬테 카를로 트리 탐색에 대한 개념 이해
+- 파이썬을 이용하여 Tic-Tac-Toe 게임 구현
+- 파이썬을 이용하여 몬테카를로 트리 탐색 코드 구현
+- 파이썬을 이용하여 UCT (Upper Confidence Bounds of Tree) 알고리즘 구현
+- 게임 실행 및 확인
+
+### < 동영상 링크 >
+1) 몬테카를로 및 몬테카를로 트리 서치에 대한 이해
+
+ https://www.youtube.com/watch?v=6-cjW6X9HAI
+
+2) MCTS 및 UCT 알고리즘 직접적 구현 및 시연
+ https://www.youtube.com/watch?v=kSZ0Ovu7nug
+
+3) 발표 자료 및 구현 코드 (.py & .ipynb)
+
+TICTACTOE_MCTS.zip
+
+인공지능의_활용_ppt.pptx
+---------------------------------------
+# Team Project 5조 - Generative Adversarial Networks (GANs) 모델
+정산(21400684) / 최진아(21800753)
+
+## <프로젝트 소개>
+Generative Adversarial Networks (GANs) 모델을 직접 구성, 프로그래밍해보고 모델을 사용하여 MNIST Data, Keras, Tensorflow를 이용해 숫자의 손글씨 이미지를 생성하는 모델을 만들어본다.
+
+## <다루게 될 기술>
+- numpy
+- MNIST Data
+- Tensorflow
+-GAN
+- Keras
+- tqdm
+## <프로젝트 개요>
+- MNIST 데이터셋을 사용해 train, test Data set을 다운받음
+- Generator Discriminators 네트워크를 구축
+- 일정 수의 epoch 마다 생성된 이미지를 저장하는 함수 작성
+- Training
+
+## <프로젝트 결과물>
+-[영상 링크](https://youtu.be/84Ythd2f97M)
+
+GANs_Project.ipynb
+
+GANs_Project.pdf
 
 ------------------------------------------
-# Team Project 9조
+
+# Team Project 6조 - 다음날 주가 예측하기
+
+ 홍순찬(21400817)
+
+ -------------------------------
+## <프로젝트 소개>
+RNN 알고리즘을 사용하여 과거 주가데이터 학습한 후, 다음날 주가 예측하기
+
+## <다루게 될 기술>
+
+- numpy
+- tensorflow
+- matplotlib
+- os
+
+## <프로젝트 개요>
+
+- 과거의 주가 데이터를 학습
+- 학습용/ 테스트용 데이터를 사용
+- 검증용 측정 지표를 산출하기 위한 targets, prediction을 생성
+- Training
+- 실제 주가와 예측 주가를 비교
+
+## 프로젝트 원 소스
+-  https://github.com/hunkim
+
+## 프로젝트 결과물
+- RNN_과거_주가_데이터_학습하여_다음날_종가_예측하기.pptx
+
+- 과거_주가_데이터_학습하여_다음날_종가_예측하기.ipynb
+
+- stock_daily_price.csv
+------------------------------------------
+# Team Project 8조
+
+이주완(21500554) / 김강훈(21900063)
+----------------------------------------
+
+## <프로젝트 개요>
+
+1. 학습 알고리즘인 “역전파”에 대해 알아보기
+2. “경사하강법”에 대해 알아보기
+3. 간단한 코드로 뉴런 네트워크 구현하기  ※ NeuronCode1.ipynb 참고
+4. 역전파법을 이용한 뉴럴 네트워크를 구현하고, 입력값을 활용해서 결과값을 예측  ※ NeuronCode2.ipynb 참고
+
+## <프로젝트 결과물>
+
+[동영상 설명](https://d1b10bmlvqabco.cloudfront.net/attach/jsflt1hhzmp45n/jldf6qd7zvh6fw/jwhq9jlu8yxv/Group7_Video.mp4)
+
+Project_Group7.pptx   
+
+NeuronCode1_.ipynb
+
+NeuronCode2.ipynb
+
+7조_프로젝트.zip
+
+------------------------------------------
+# Team Project 8조 - Emotion/Gender Classification
+최은송(21500747) / 김나연(21900075)
+-------------------------------------------
+
+## 프로젝트 소개
+oarriaga의 emotion/geder classification 프로젝트를 git에서 다운받아 설치하고 모델을 학습해서 실시간 웹캠으로 사람들의 감정 상태와 성별을 탐지하기.
+
+CNN 모델과 openCV를 통해 실시간으로 사람의 얼굴을 탐지하고 감정과 성별을 구별하는 Emotion/Gender Classification 프로젝트
+
+## <Original Source>
+https://github.com/oarriaga/face_classification
+
+## <프로젝트 개요>
+emotion/gender classification의 원리
+oarriaga의 emotion/gender classification 프로젝트를 깃허브에 다운받아서 설치하기
+keras와 opencv 환경에서 위에서 다운받은 classification 프로그램 구동하기
+사람의 감정과 성별을 구분한 얼굴 사진이 있는 데이터베이스를 classification 모델에 학습시키기
+웹캠을 이용해 실시간으로 사람들의 성별과 감정 상태를 탐지하기
+
+## 프로젝트 결과물
+[동영상](https://www.youtube.com/watch?v=aH4svYvwyDA&feature=youtu.be)
+
+## 추가자료
+- emotiongender_classification.pptx
+
+- 8조_Emotion_Gender_Classification__프로젝트.ipynb
+
+- train_emotion_jupyter.ipynb
+
+- image_model_jupyter.ipynb
+
+- video_model_jupyter.ipynb
+
+-> (전체 프로젝트 압축파일을 올리려고 했으나 용량이 너무 커서 영상에서 사용한 코드만 첨부합니다. 위의 링크에서 프로젝트 파일을 다운받아서 src 폴더에 위의 파일을 넣으면 실행시킬 수 있습니다.)
+
+
+
+------------------------------------------
+# Team Project 9조 - 심장질환 예측(Logistic Regression)
 
 홍유빈(21500804) / 이수지(21800528) / 김영민(21900141)
 
@@ -68,44 +222,45 @@
 
 * 동영상은 나누어 제작(1편, 2편)
 [동영상 설명 1](https://youtu.be/ODGJN-cBx7Q)
-[동영상 설명 1](https://youtu.be/cgOMwMOXBX8)
+[동영상 설명 2](https://youtu.be/cgOMwMOXBX8)
 
----------------------------------
+---------------------------------------
+# Team Project 10조 - YOLO프로젝트
 
-# Team Project 18조 - 블록체인을 이해하고 간단한 블록체인 코어를 구현해보기
+21600071 김민철 21900148 김예림
+---------------------------------------
 
-최혁진(21900771)
--------------------------------
+<동영상 설명 1> [Darknet설치 및 사용하는 방법]()
+<동영상 설명 2> [OpenCV 설치방법]()
 
-## <프로젝트 소개>
-화폐의 원래 개념과, 은행에서의 transaction vs. 블록체인의 transaction원리를 비교해 보고 블록체인의 코어를 코딩해보고 구동해보는 것입니다.
+추가_자료.docx
 
+해당자료는 영상에 필요한 다운 주소와 링크
 
+추가로 환경설정 과 opencv 설치시 오류 해결방법 을 작성했습니다.
 
-## <다루게 될 기술>
-hashlib
-json
-파이썬
-class 함수
+-------------------------------------
 
+# Team Project 11조 - 코스피, 코스닥 증감률에 따른 금값 변화
+
+김석진 21700105 김예준 21900156
+-----------------------------------
 ## <프로젝트 개요>
-class를 통해 블록에 거래내역 (nonce, Tstamp, transaction, prevhash)을 부여한다
+- 코스피 , 코스닥 증감률의 데이터를 저장
+- 금값에 대한 데이터를 저장
+- 데이터들을 바탕으로 학습
+- 학습된 모델을 활용하여 금값예측
 
-hashlib과 json을 import해 블록의 거래내역을 암호화 한다 (sha.256사용)
+## <프로젝트 결과물>
+https://youtu.be/WFmorIg0byQ
 
-class를 이용해 Genesis블록과 블록체인을 구현한다
+18조_프로젝트.pptx
 
-for range를 이용해 블록이 손상됬을 경우 블록이 체인에 추가되지 못하도록 한다
+goldPrice.csv
 
-블록체인 구현을 한것을 임의로 만든 것과, 그 만든 것의 데이터를 조작 (해킹)한 후 블록이 쓰일 수 있는 블록인지 (True) 쓰일 수 없는 블록인지 (Invalid, False) 구분한다
+goldPrice_Predict.ipynb
 
-
-<동영상 링크>
-https://www.youtube.com/watch?v=EA4dXhY91a8&feature=share
-
-21900771_최혁진_Block_Chain_.ipynb
-
-21900771_최혁진__미래의_화폐로서의_가능성_블록체인.pptx
+goldPricePrecit2.ipynb
 
 --------------------------------------------------
 
@@ -164,60 +319,6 @@ https://youtu.be/Vl6cupU0MKM
 ## 자료 및 코드파일
 TitanicSurvivormaster.zip
 
-----------------------------------------------------
-# Team Project 4조 - MCTS를 활용한 인공지능 TicTacToe 개발
-
-장재근(21400659) / 이화평(21800608)
---------------------------------------------
-### < 프로젝트 소개 >
-- 몬테카를로 트리 탐색(MCTS) 및 UCT 알고리즘을 이용한 인공지능 TICTACTOE게임 프로그램 제작
-
-### <다루게 될 기술>
-- Python
-
-### < 프로젝트 개요 >
-- 몬테 카를로 트리 탐색에 대한 개념 이해
-- 파이썬을 이용하여 Tic-Tac-Toe 게임 구현
-- 파이썬을 이용하여 몬테카를로 트리 탐색 코드 구현
-- 파이썬을 이용하여 UCT (Upper Confidence Bounds of Tree) 알고리즘 구현
-- 게임 실행 및 확인
-
-### < 동영상 링크 >
-1) 몬테카를로 및 몬테카를로 트리 서치에 대한 이해
-
- https://www.youtube.com/watch?v=6-cjW6X9HAI
-
-2) MCTS 및 UCT 알고리즘 직접적 구현 및 시연
- https://www.youtube.com/watch?v=kSZ0Ovu7nug
-
-3) 발표 자료 및 구현 코드 (.py & .ipynb)
-
-TICTACTOE_MCTS.zip
-
-인공지능의_활용_ppt.pptx
-
-------------------------------------------
-# Team Project 11조 - 코스피, 코스닥 증감률에 따른 금값 변화
-
-김석진 21700105 김예준 21900156
------------------------------------
-## <프로젝트 개요>
-- 코스피 , 코스닥 증감률의 데이터를 저장
-- 금값에 대한 데이터를 저장
-- 데이터들을 바탕으로 학습
-- 학습된 모델을 활용하여 금값예측
-
-## <프로젝트 결과물>
-https://youtu.be/WFmorIg0byQ
-
-18조_프로젝트.pptx
-
-goldPrice.csv
-
-goldPrice_Predict.ipynb
-
-goldPricePrecit2.ipynb
-
 ------------------------------------------
 # Team Project 16/19조 - AlpaZero 작동하기
 
@@ -238,37 +339,7 @@ goldPricePrecit2.ipynb
 https://youtu.be/f0GxX9OCrXs
 
 ------------------------------------------
-# Team Project 6조 - 다음날 주가 예측하기
 
- 홍순찬(21400817)
-
- -------------------------------
-## <프로젝트 소개>
-RNN 알고리즘을 사용하여 과거 주가데이터 학습한 후, 다음날 주가 예측하기
-
-## <다루게 될 기술>
-
-numpy
-tensorflow
-matplotlib
-os
-
-## <프로젝트 개요>
-
-과거의 주가 데이터를 학습
-학습용/ 테스트용 데이터를 사용
-검증용 측정 지표를 산출하기 위한 targets, prediction을 생성
-Training
-실제 주가와 예측 주가를 비교
-
-## 프로젝트 결과물
-- RNN_과거_주가_데이터_학습하여_다음날_종가_예측하기.pptx
-
-- 과거_주가_데이터_학습하여_다음날_종가_예측하기.ipynb
-
-- stock_daily_price.csv
-
------------------------------------
 
 ---------------------------------------------------------
 # Team Project 15조 : (Darknet YOLO tensorflow version) "DarkFlow"
@@ -310,6 +381,71 @@ MAC OS에서도 darknet yolo를 구동 할 수 있어 본 프로젝트는 "MAC O
   코드: 해당 블로그 주소 포스팅을 통해 git clone이 가능합니다.
 
 
-
-
 -----------------------------------
+
+# Team Project 18조 - 블록체인을 이해하고 간단한 블록체인 코어를 구현해보기
+
+최혁진(21900771)
+-------------------------------
+
+## <프로젝트 소개>
+화폐의 원래 개념과, 은행에서의 transaction vs. 블록체인의 transaction원리를 비교해 보고 블록체인의 코어를 코딩해보고 구동해보는 것입니다.
+
+
+
+## <다루게 될 기술>
+hashlib
+json
+파이썬
+class 함수
+
+## <프로젝트 개요>
+class를 통해 블록에 거래내역 (nonce, Tstamp, transaction, prevhash)을 부여한다
+
+hashlib과 json을 import해 블록의 거래내역을 암호화 한다 (sha.256사용)
+
+class를 이용해 Genesis블록과 블록체인을 구현한다
+
+for range를 이용해 블록이 손상됬을 경우 블록이 체인에 추가되지 못하도록 한다
+
+블록체인 구현을 한것을 임의로 만든 것과, 그 만든 것의 데이터를 조작 (해킹)한 후 블록이 쓰일 수 있는 블록인지 (True) 쓰일 수 없는 블록인지 (Invalid, False) 구분한다
+
+
+<동영상 링크>
+https://www.youtube.com/watch?v=EA4dXhY91a8&feature=share
+
+21900771_최혁진_Block_Chain_.ipynb
+
+21900771_최혁진__미래의_화폐로서의_가능성_블록체인.pptx
+
+-----------------------------------------
+
+# Team Project 18조 - 파이썬 자연어처리로 영화 리뷰 예측 AI 개발하기
+김희수(21800215)
+
+## <프로젝트 소개>
+영화 리뷰를 분석하여 긍정적 리뷰인지 부정적 리뷰인지 예측하는 파이썬 자연어처리를 사용한 인공지능을 만들어본다.
+
+## <다루게 될 기술>
+- NLTK
+- pandas
+- skikit-learn
+- tf-idf
+- pickle
+
+## <프로젝트 개요>
+- kaggle사이트로 영화 리뷰를 다운로드 받고 자료를 살펴보기
+- 데이터를 정제하여 단어장 만들기
+- countVectorizer()로 단어장을 벡터로 만들기
+- tf-idf기법 사용하여 단어의 빈도수 체크하기
+- nltk를 사용하여 문장을 단어로 나누기
+- 학습 모델 만들기
+
+## <프로젝트 결과물>
+[동영상 설명](https://youtu.be/ceCAj_f7yuo)
+https://www.youtube.com/watch?v=ceCAj_f7yuo&feature=youtu.be
+
+영화_리뷰_예측_인공지능_프로젝트.ipynb
+
+개요_설명_ppt.pptx
+-------------------------------------

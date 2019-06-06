@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>TitanicSurvivor</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="{{url_for('static', filename='css/bootstrap.min.css')}}" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="{{url_for('static', filename='css/mdb.min.css')}}" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="{{url_for('static', filename='css/style.min.css')}}" rel="stylesheet">
+  <!-- 웹 폰트 적용하기 -->
+  <link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture|Do+Hyeon|East+Sea+Dokdo|Gothic+A1|Gugi|Kirang+Haerang|Nanum+Myeongjo:700&display=swap&subset=korean" rel="stylesheet">
+  <style type="text/css">
+    html,
+    body,
+    header,
+    .carousel {
+      height: 100%;
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #1C2331!important;
+            }
+        }
+
+    .hangul {
+        font-family: 'Black And White Picture', sans-serif !important;
+        font-size: 1.2em;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="#" target="_blank">
+        <strong class="hangul">Titanic Survivor</strong>
+      </a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" style="font-family: 'Black And White Picture', sans-serif ">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+        </ul>
+
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="" class="nav-link" target="_blank">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.instagram.com/heyo_om/" class="nav-link" target="_blank">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/hyeyoomj/TitanicSurvivor" class="nav-link border border-light rounded"
+              target="_blank" style="font-family: 'Black And White Picture', sans-serif ">
+              <i class="fa fa-github mr-2"></i>GitHub
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+  <!--Carousel Wrapper-->
+  <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+      <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+
+      <!--First slide-->
+      <div class="carousel-item active">
+        <div class="view">
+
+          <!--Video source-->
+          <video class="video-fluid" autoplay loop>
+            <source src="https://mdbootstrap.com/img/video/Lines.mp4" type="video/mp4" >
+          </video>
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong style="font-family: 'Black And White Picture', sans-serif; font-size: 2.0em;">1 9 1 2, 타이타닉호에서 살아남기 </strong>
+              </h1>
+
+              <p>
+                <strong style="font-family: 'Black And White Picture', sans-serif; font-size: 1.5em;">내가 만약 타이타닉에 탑승했더라면?</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong style="font-family: 'Black And White Picture', sans-serif; font-size: 1.5em;">나의 정보를 입력해 과연 나는 1912년, 타이타닉호의 침몰 현장에서 살아남을 수 있었을지 알아보자!</strong>
+              </p>
+
+              <br>
+              <br>
+              <a href="#gogo" class="btn btn-outline-white btn-lg" style="font-family: 'Black And White Picture', sans-serif; font-size: 1.2em">타이타닉호 탑승하기
+                <i class="fa fa-ship"></i>
+              </a>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/First slide-->
+
+      <!--Second slide-->
+      <div class="carousel-item">
+        <div class="view">
+
+          <!--Video source-->
+          <video class="video-intro" autoplay loop>
+              <source src="https://mdbootstrap.com/img/video/Sail-Away.mp4" type="video/mp4">
+          </video>
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong style="font-family: 'Black And White Picture', sans-serif; font-size: 2.0em;">1 9 1 2, 타이타닉호에서 살아남기 </strong>
+              </h1>
+
+              <p>
+                <strong style="font-family: 'Black And White Picture', sans-serif; font-size: 1.5em;">내가 만약 타이타닉에 탑승했더라면?</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong style="font-family: 'Black And White Picture', sans-serif; font-size: 1.5em;">나의 정보를 입력해 과연 나는 1912년, 타이타닉호의 침몰 현장에서 살아남을 수 있었을지 알아보자!</strong>
+              </p>
+
+              <br>
+              <br>
+              <a href="#gogo" class="btn btn-outline-white btn-lg" style="font-family: 'Black And White Picture', sans-serif; font-size: 1.2em">타이타닉호 탑승하기
+                <i class="fa fa-ship"></i>
+              </a>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/Second slide-->
+
+      <!--Third slide-->
+      <div class="carousel-item">
+        <div class="view">
+
+          <!--Video source-->
+          <video class="video-intro" autoplay loop>
+              <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4">
+          </video>
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong style="font-family: 'Black And White Picture', sans-serif; font-size: 2.0em;">1 9 1 2, 타이타닉호에서 살아남기 </strong>
+              </h1>
+
+              <p>
+                <strong style="font-family: 'Black And White Picture', sans-serif; font-size: 1.5em;">내가 만약 타이타닉에 탑승했더라면?</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong style="font-family: 'Black And White Picture', sans-serif; font-size: 1.5em;">나의 정보를 입력해 과연 나는 1912년, 타이타닉호의 침몰 현장에서 살아남을 수 있었을지 알아보자!</strong>
+              </p>
+
+              <br>
+              <br>
+              <a href="#gogo" class="btn btn-outline-white btn-lg" style="font-family: 'Black And White Picture', sans-serif; font-size: 1.2em">타이타닉호 탑승하기
+                <i class="fa fa-ship"></i>
+              </a>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/Third slide-->
+
+    </div>
+    <!--/.Slides-->
+
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+
+  </div>
+  <!--/.Carousel Wrapper-->
+
+  <!--Main layout-->
+  <main>
+    <div class="container">
+
+      <!--Section: Main info-->
+      <section class="mt-5 wow fadeIn">
+        <a name="gogo">
+        <h3 class="h3 text-center mb-5" style="font-family:'Gugi', cursive; font-size: 2em; color: navy ;"><strong>타이타닉 호 탑승하기</strong>
+        </h3></a>
+
+        <!--Grid row-->
+        <div class="row">
+
+
+
+          <!--Grid column-->
+          <div class="col-md-6 mb-4">
+
+            <!-- Main heading -->
+            <h3 class="h3 mb-3" style="font-family:'Gugi', cursive;">타이타닉호에 오신걸 환영합니다
+            </h3>
+            <p style="font-family: 'Do Hyeon'; font-size: 1.2em;">1912년, 타이타닉에 승선하실 준비 되셨나요?
+              </p>
+            <p></p>
+            <!-- Main heading -->
+
+            <hr>
+
+            <p style="font-family: 'Do Hyeon'; color:gray;">
+              <strong>타이타닉호</strong>는 영국의 화이트 스타 라인이 운영하던 북대서양 횡단 호화 여객선입니다<br>
+              1912년 4월 10일 영국의 사우샘프턴을 떠나 미국의 뉴욕으로 향하던 첫 항해 중에<br>4월 15일 빙산과 충돌하여 침몰하였습니다.<br>
+              침몰 당시 승객 1,514명이 사망하였으며, 이는 현재까지도 <br>전쟁이 아닐 때 일어난 해난사고 가운데 가장 큰 인명피해 입니다.<br>
+            </p>
+
+            <!-- CTA -->
+            <a target="_blank" href="https://ko.wikipedia.org/wiki/RMS_%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89"
+              style="font-family:'Gugi', cursive;" class="btn btn-grey btn-md">타이타닉 더 알아보기
+            </a>
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-6 mb-4">
+            <h3 class="h3 mb-3"
+              style="font-family:'Gugi', cursive">$ 타이타닉호 객실 운임표 $
+            </h3>
+
+            <head>
+              <meta charset="utf-8">
+              <style>
+                table {
+                  width: 90%;
+                  height: 80%;
+                }
+                table, th, td {
+                  border: 3px solid #ababab;
+                }
+              </style>
+            </head>
+            <body>
+              <table style="font-family: 'Do Hyeon', sans-serif; font-size: 1.5em; text-align: center">
+                <!-- <caption style="font-family: 'Do Hyeon'; font-size: 0.7em;">언제나 최상의 서비스로 모십니다</caption> -->
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>1등급 객실</th>
+                    <th>2등급 객실</th>
+                    <th>3등급 객실</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>1인용</th>
+                    <td>$150~250</td>
+                    <td>$20~$40</td>
+                    <td> - </td>
+                  </tr>
+                  <tr>
+                    <th>2~3인용</th>
+                    <td>$50~100</td>
+                    <td>$15~$20</td>
+                    <td>$10~15</td>
+                  </tr>
+                  <tr>
+                    <th>4인 이상</th>
+                    <td>$40~50</td>
+                    <td>$10~15</td>
+                    <td>$7~8</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="4" style="color: gray">*단, 동일 등급 내에서도 위치 및 객실 옵션에 따라 가격이 달라질 수 있음!</td>
+                  </tr>
+                </tfoot>
+              </table>
+            </body>
+            <!-- <img src="{{url_for('static', filename='img/graph.png')}}" class="img-fluid z-depth-1-half" alt=""> -->
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+      </section>
+      <!--Section: Main info-->
+
+      <hr class="my-5">
+
+      <!--Section: Main features & Quick Start-->
+      <section>
+
+
+
+        <!--Grid row-->
+        <div class="row wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12 px-4">
+            <h3 class="h3 text-center mb-5" style="font-family:'Gugi', cursive;">손님의 탑승정보를 입력해주세요<br>곧 출발합니다!</h3>
+
+            <form action="/" method="post">
+              <!-- Default form group -->
+
+                  <!-- Default input -->
+                  <div class="form-group">
+                      <label style="font-family: 'Gothic A1', sans-serif;" for="formGroupExampleInput">이름</label>
+                      <input style="font-family: 'Gothic A1', sans-serif;" type="text" name="name" class="form-control" id="formGroupExampleInput" placeholder="탑승자의 이름을 입력하세요.">
+                  </div>
+                  <!-- Default input -->
+                  <div class="form-group">
+                      <label style="font-family: 'Gothic A1', sans-serif;" for="formGroupExampleInput">나이</label>
+                      <input style="font-family: 'Gothic A1', sans-serif;" type="text" name="age" class="form-control" id="formGroupExampleInput" placeholder="탑승자의 나이를 입력하세요.">
+                  </div>
+                  <!-- Default input -->
+                  <div class="form-group">
+                      <label style="font-family: 'Gothic A1', sans-serif;" for="formGroupExampleInput">성별</label>
+                      <input style="font-family: 'Gothic A1', sans-serif;" type="text" name="sex" class="form-control" id="formGroupExampleInput" placeholder="탑승자의 성별(0:남자, 1:여자)을 입력하세요.">
+                  </div>
+                  <!-- Default input -->
+                  <div class="form-group">
+                      <label style="font-family: 'Gothic A1', sans-serif;" for="formGroupExampleInput">탑승 객실</label>
+                      <input style="font-family: 'Gothic A1', sans-serif;" type="text" name="pclass" class="form-control" id="formGroupExampleInput" placeholder="상단의 객실운임표를 참고하여 탑승하실 객실 등급을 입력하세요.">
+                  </div>
+                  <!-- Default input -->
+                  <div class="form-group">
+                      <label style="font-family: 'Gothic A1', sans-serif;" for="formGroupExampleInput">동승 형제,자매</label>
+                      <input style="font-family: 'Gothic A1', sans-serif;" type="text" name="sibling" class="form-control" id="formGroupExampleInput" placeholder="동승하실 형제,자매 가구원 수를 입력하세요.">
+                  </div>
+                  <!-- Default input -->
+                  <div class="form-group">
+                      <label style="font-family: 'Gothic A1', sans-serif;" for="formGroupExampleInput">동승 부모</label>
+                      <input style="font-family: 'Gothic A1', sans-serif;" type="text" name="parent" class="form-control" id="formGroupExampleInput" placeholder="동승하실 부모 가구원 수를 입력하세요.">
+                  </div>
+                  <div class="form-group">
+                      <label style="font-family: 'Gothic A1', sans-serif;" for="formGroupExampleInput">지불 금액</label>
+                      <input style="font-family: 'Gothic A1', sans-serif;" type="text" name="fare" class="form-control" id="formGroupExampleInput" placeholder="지불하신 총 운임을 입력하세요. (단위:$)">
+                  </div>
+
+              <!-- Default form group -->
+              <button style="font-family: 'Gugi', cursive !important; font-size: 1.5em;" type="submit" class="btn btn-primary btn-md pull-right">탑승하기 <i class="fa fa-ship"></i> </button>
+
+            </form>
+
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12">
+
+            <br><br><br><br><br><br><br><br><br><br><br>
+
+            <p class="h5 text-center mb-4" style="font-family: 'Gugi', cursive; font-size: 2.5em; color: navy;"> <생존율 예측 결과> </p>
+            {% if survive %}
+              <h5 class="text-center mt-3" style="font-family: 'Gugi', cursive; font-size: 2em;">{{ name }} 님이<br>타이타닉에서 살아남을 확률은<br>{{ survive }} % 입니다.</h5>
+            {% endif %}
+          </div>
+          <!--/Grid column-->
+
+        </div>
+        <!--/Grid row-->
+
+      </section>
+      <!--Section: Main features & Quick Start-->
+
+    </div>
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+    <!--Call to action-->
+    <div class="pt-4">
+      <a class="btn btn-outline-white" href="https://github.com/hyeyoomj/TitanicSurvivor" target="_blank" role="button">LET'S GO GITHUB
+        <i class="fa fa-graduation-cap ml-2"></i>
+      </a>
+    </div>
+    <!--/.Call to action-->
+
+    <hr class="my-4">
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+      © 2019 Copyright:
+      <a href="https://blog.naver.com/hyeyoomj" target="_blank"> 정혜윰, 이원빈</a>
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+  <!--/.Footer-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="{{url_for('static', filename='js/jquery-3.3.1.min.js')}}"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="{{url_for('static', filename='js/popper.min.js')}}"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="{{url_for('static', filename='js/mdb.min.js')}}"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+  </script>
+
+  <iframe width="0" height="0" src="https://www.youtuberepeater.com/watch?v=u7sTTv_A3IQ#gsc.tab=0"
+   frameborder="0" allowfullscreen controls style="display:none"></iframe>
+
+</body>
+
+</html>
