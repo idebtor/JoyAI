@@ -132,9 +132,11 @@ StyleTranfer_소개.docx
 
 Neural_Style_Transfer_with_Eager_Execution.ipynb
 
-(sound track is not good)
-[동영상 1](https://piazza.com/class/jsflt1hhzmp45n?cid=335)
-[동영상 2](https://piazza.com/class/jsflt1hhzmp45n?cid=335)
+[이론 설명 동영상](https://www.youtube.com/watch?v=I_IU7AifIXU&feature=youtu.be)
+[구현 설명 동영상](https://www.youtube.com/watch?v=NIlY4Lsx1jk&feature=youtu.be)
+
+(Good sound track video in YouTube)
+
 
 --------------------------------------------
 
@@ -238,10 +240,40 @@ goldPricePrecit2.ipynb
 https://youtu.be/f0GxX9OCrXs
 
 ------------------------------------------
-# Team Project 16/19조 - AlpaZero
+# Team Project 6조 - 다음날 주가 예측하기
 
-16조 21800041 권혁재 / 21900625 장다빈
+ 홍순찬(21400817)
 
-19조 21900819 황주영 / 21800235 류태동
+ -------------------------------
+## <프로젝트 소개>
+RNN 알고리즘을 사용하여 과거 주가데이터 학습한 후, 다음날 주가 예측하기
+
+## <다루게 될 기술>
+
+numpy
+tensorflow
+matplotlib
+os
+
+## <프로젝트 개요>
+
+과거의 주가 데이터를 학습
+학습용/ 테스트용 데이터를 사용
+검증용 측정 지표를 산출하기 위한 targets, prediction을 생성
+Training
+실제 주가와 예측 주가를 비교
+
+## 프로젝트 결과물
+- RNN_과거_주가_데이터_학습하여_다음날_종가_예측하기.pptx
+
+- 과거_주가_데이터_학습하여_다음날_종가_예측하기.ipynb
+
+- stock_daily_price.csv
+
+-----------------------------------
+
+
+
+
 
 -----------------------------------
