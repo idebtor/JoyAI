@@ -65,10 +65,10 @@ MAC OS에서도 darknet yolo를 구동 할 수 있어 본 프로젝트는 "MAC O
 script.ipynb
 
 보충자료.docx
-* 동영상은 나누어 제작(1편, 2편)
-https://youtu.be/ODGJN-cBx7Q
-https://youtu.be/cgOMwMOXBX8
 
+* 동영상은 나누어 제작(1편, 2편)
+[동영상 설명 1](https://youtu.be/ODGJN-cBx7Q)
+[동영상 설명 1](https://youtu.be/cgOMwMOXBX8)
 
 
 ## 3장 Optional [역전파 What is backpropagation really doing?](https://www.youtube.com/watch?v=Ilg3gGewQ5U&index=3&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
