@@ -231,6 +231,7 @@ keras와 opencv 환경에서 위에서 다운받은 classification 프로그램 
 ---------------------------------------
 
 <동영상 설명 1> [Darknet설치 및 사용하는 방법]()
+
 <동영상 설명 2> [OpenCV 설치방법]()
 
 추가_자료.docx
@@ -279,8 +280,6 @@ goldPricePrecit2.ipynb
 - 학습한 스타일을 바탕으로 Neural Style Transfer 구현하기
 
 ## <프로젝트 산출물>
-piazza_clz_md_2009_piazza_clz_md_2009
-
 CoreAAC_DirectShow_Filter.exe
 
 StyleTranfer_소개.docx
@@ -289,8 +288,20 @@ Neural_Style_Transfer_with_Eager_Execution.ipynb
 
 [이론 설명 동영상](https://www.youtube.com/watch?v=I_IU7AifIXU&feature=youtu.be)
 [구현 설명 동영상](https://www.youtube.com/watch?v=NIlY4Lsx1jk&feature=youtu.be)
-
 (Good sound track video in YouTube)
+
+-----------------------------
+# Team Project 13 -
+
+
+
+## 프로젝트 개요
+- 과거와 현재 일별 주가와 거래량을 이용하여 미국 아마존의 내일 주가을 예측한다
+- 과거 아마존 주가 데이터를 다운받는다
+- LSTM 네트워크 생성, RNN 생성
+- 그래프 출력
+
+
 
 
 --------------------------------------------
