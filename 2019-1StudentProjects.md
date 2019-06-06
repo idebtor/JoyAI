@@ -32,11 +32,10 @@ MAC OS에서도 darknet yolo를 구동 할 수 있어 본 프로젝트는 "MAC O
 
 -----------------------------
 
-  영상 주소 : https://www.youtube.com/watch?v=yxQGlMLegcs&feature=youtu.be
-  포스팅 블로그 주소: https://blog.naver.com/co748/221554688233
-  ppt : Darknet_Yolo_Tensorflow.pptx
-
-  코드 : 해당 블로그 주소 포스팅을 통해 git clone이 가능합니다.
+  동영상: [동영상 설명서](https://www.youtube.com/watch?v=yxQGlMLegcs&feature=youtu.be)
+  블로그: [포스팅 블로그](https://blog.naver.com/co748/221554688233)
+  ppt파일: [Darknet_Yolo_Tensorflow.pptx](https://github.com/idebtor/JoyAI/blob/master/projects/15%EC%A1%B0/Darknet_Yolo_Tensorflow.pptx)
+  코드: 해당 블로그 주소 포스팅을 통해 git clone이 가능합니다.
 
   -----------------------------------
 
