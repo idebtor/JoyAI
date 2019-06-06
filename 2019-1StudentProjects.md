@@ -1,46 +1,46 @@
 # 모두를 위한 인공지능의 활용(2019-1)
 
-----------------------------------------------------------
-# Team Project 15조 : (Darknet YOLO tensorflow version) "DarkFlow"
-21700748 최지호, 21900556 이재민
+# Team Project 1조 - Tensorflow와 선형회귀를 활용하여 silver to gold price 예측 프로젝트.
 
-## 프로젝트 개요
-____________________________________________
-## Darknet YOLO tensorflow version "DarkFlow"에 대하여
---------
-+ Darket Yolo는 수업시간 ted강의로 나왔던 주제입니다. C와 CUDA로 작성된 오픈 소스 신경망 프레임 워크이며, 빠르고 설치가 쉽고 CPU 및 GPU계산을 지원하고 있습니다.
+김정빈 21400179 / 김하림 21400220 / 안재욱 21400422
+----------------------------------
 
-+ 그렇지만 매우 강력한 오픈 소스 신경망 프레임 워크인 Darknet YOLO는 CUDA를 사용하기 때문에 NVIDIA사의 그래픽이 없는 컴퓨터는 CUDA를 사용할 수 없다는 점이 있었고
+##  프로젝트 개요
 
-+ 원 저자는 C를 이용하여 프로그램을 짰기 때문에, Tensorflow의 Tensorvboard와 같은 유용한 기능들을 사용할 수 없는 점이 있습니다. 그래서 어느 개발자가 TensorFlow 버전 YOLO인 DarkFlow를 개발하여 오픈소스로 공개하였고 python 기반으로 작성을 했습니다!
+  플라스크 웹 서버를 통하여 접속할 수 있으며,   은 가격 정보를 입력하면 그에 상응하는 금 가격을 계산하여 출력합니다.   사용자는 이 정보들을 읽고 둘의 상관관계와 투자에 관하여 도움을 받을 수 있습니다.
 
-------
+##  기대 효과
 
-## 프로젝트의 목적
-MAC OS에서도 darknet yolo를 구동 할 수 있어 본 프로젝트는 "MAC OS" 환경의 터미널에서 "Darkflow 설치 및 실행해보기" 입니다.
+  1. 은을 통해 금의 가격 예측
 
-+ 프로젝트를 통해
+  2. 금시세와 은값에 의한 예측된 금가격 정보를 비교하여 시장의 흐름 파악에 참고 자료로 활용 가능.
 
- 1. Darkflow 개발환경 설치
- 2. Darkflow 돌려보기
- 3. 모델 및 여러가지 제공 명령어 학습
- 4. VOC로 Yolo 학습시키는 법,
- 5. 객체 탐지 예제 실행해보기(사진 & 실시간 웹캠) with threshold
+  3. 지난 1년 동안의 daily 데이터셋을 통해 보다 정확한 예측이 가능함.
 
-을 해보았습니다.
 
------------------------------
 
-  동영상: [동영상 설명서](https://www.youtube.com/watch?v=yxQGlMLegcs&feature=youtu.be)
+##  특징
 
-  블로그: [포스팅 블로그](https://blog.naver.com/co748/221554688233)
+  1. COMEX(뉴욕상품거래소) 기준으로  달러/트로이온스(US dollar per troy ounce) 단위에 따른 정보 예측.
 
-  ppt파일: [Darknet_Yolo_Tensorflow.pptx](https://github.com/idebtor/JoyAI/blob/master/projects/15%EC%A1%B0/Darknet_Yolo_Tensorflow.pptx)
+  2. 다중 선형 회귀가 아닌 단순 선형 회귀 활용으로 그에 따른 코드의 쓰임을 파악하는데 도움.
 
-  코드: 해당 블로그 주소 포스팅을 통해 git clone이 가능합니다.
 
-  -----------------------------------
+## [금 은 퀀트 투자 AI 프로젝트 영상](https://www.youtube.com/watch?v=Vbd7WszNr4U&feature=youtu.be)
 
+## 결과물
+  silver_gold_data.csv
+
+  silver_gold_predict_01.ipynb
+
+  silver_gold_predict_02.ipynb
+
+  금_은_퀀트_투자_AI_프로젝트.pptx
+
+  1조_프로젝트.zip
+
+
+------------------------------------------
 # Team Project 9조
 
 홍유빈(21500804) / 이수지(21800528) / 김영민(21900141)
@@ -219,11 +219,9 @@ goldPrice_Predict.ipynb
 goldPricePrecit2.ipynb
 
 ------------------------------------------
-# Team Project 16/19조 - AlpaZero
+# Team Project 16/19조 - AlpaZero 작동하기
 
-16조 21800041 권혁재 / 21900625 장다빈
-
-19조 21900819 황주영 / 21800235 류태동
+16조 21800041 권혁재 / 21900625 장다빈, 19조 21900819 황주영 / 21800235 류태동
 
 -----------------------------------
 
@@ -272,6 +270,44 @@ Training
 
 -----------------------------------
 
+---------------------------------------------------------
+# Team Project 15조 : (Darknet YOLO tensorflow version) "DarkFlow"
+21700748 최지호, 21900556 이재민
+
+## 프로젝트 개요
+____________________________________________
+## Darknet YOLO tensorflow version "DarkFlow"에 대하여
+--------
++ Darket Yolo는 수업시간 ted강의로 나왔던 주제입니다. C와 CUDA로 작성된 오픈 소스 신경망 프레임 워크이며, 빠르고 설치가 쉽고 CPU 및 GPU계산을 지원하고 있습니다.
+
++ 그렇지만 매우 강력한 오픈 소스 신경망 프레임 워크인 Darknet YOLO는 CUDA를 사용하기 때문에 NVIDIA사의 그래픽이 없는 컴퓨터는 CUDA를 사용할 수 없다는 점이 있었고
+
++ 원 저자는 C를 이용하여 프로그램을 짰기 때문에, Tensorflow의 Tensorvboard와 같은 유용한 기능들을 사용할 수 없는 점이 있습니다. 그래서 어느 개발자가 TensorFlow 버전 YOLO인 DarkFlow를 개발하여 오픈소스로 공개하였고 python 기반으로 작성을 했습니다!
+
+------
+
+## 프로젝트의 목적
+MAC OS에서도 darknet yolo를 구동 할 수 있어 본 프로젝트는 "MAC OS" 환경의 터미널에서 "Darkflow 설치 및 실행해보기" 입니다.
+
++ 프로젝트를 통해
+
+ 1. Darkflow 개발환경 설치
+ 2. Darkflow 돌려보기
+ 3. 모델 및 여러가지 제공 명령어 학습
+ 4. VOC로 Yolo 학습시키는 법,
+ 5. 객체 탐지 예제 실행해보기(사진 & 실시간 웹캠) with threshold
+
+을 해보았습니다.
+
+-----------------------------
+
+  동영상: [동영상 설명서](https://www.youtube.com/watch?v=yxQGlMLegcs&feature=youtu.be)
+
+  블로그: [포스팅 블로그](https://blog.naver.com/co748/221554688233)
+
+  ppt파일: [Darknet_Yolo_Tensorflow.pptx](https://github.com/idebtor/JoyAI/blob/master/projects/15%EC%A1%B0/Darknet_Yolo_Tensorflow.pptx)
+
+  코드: 해당 블로그 주소 포스팅을 통해 git clone이 가능합니다.
 
 
 
