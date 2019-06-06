@@ -1,7 +1,7 @@
 # 모두를 위한 인공지능의 활용(2019-1)
 
 ----------------------------------------------------------
-# Team Project _ 15조 : (Darknet YOLO tensorflow version) "DarkFlow"
+# Team Project 15조 : (Darknet YOLO tensorflow version) "DarkFlow"
 21700748 최지호, 21900556 이재민
 
 ## 프로젝트 개요
@@ -14,7 +14,6 @@ ____________________________________________
 
 + 원 저자는 C를 이용하여 프로그램을 짰기 때문에, Tensorflow의 Tensorvboard와 같은 유용한 기능들을 사용할 수 없는 점이 있습니다. 그래서 어느 개발자가 TensorFlow 버전 YOLO인 DarkFlow를 개발하여 오픈소스로 공개하였고 python 기반으로 작성을 했습니다!
 
-따라서
 ------
 
 ## 프로젝트의 목적
@@ -33,18 +32,44 @@ MAC OS에서도 darknet yolo를 구동 할 수 있어 본 프로젝트는 "MAC O
 -----------------------------
 
   동영상: [동영상 설명서](https://www.youtube.com/watch?v=yxQGlMLegcs&feature=youtu.be)
+
   블로그: [포스팅 블로그](https://blog.naver.com/co748/221554688233)
+
   ppt파일: [Darknet_Yolo_Tensorflow.pptx](https://github.com/idebtor/JoyAI/blob/master/projects/15%EC%A1%B0/Darknet_Yolo_Tensorflow.pptx)
+
   코드: 해당 블로그 주소 포스팅을 통해 git clone이 가능합니다.
 
   -----------------------------------
 
-## 2장 [경사하강, 신경망이 학습하는 방법](https://www.youtube.com/watch?v=IHZwWFHWa-w&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=2)
-  - 3Blue1Brown
-  - 21:01 (조회 1.7 million)
-  - 경사하강법에 사용하는 비용함수에 대한 미분과 그 이유,경사하강법(Gradient Descent)의 작동 원리를 설명하고, 이를 이용하여 다층 인공신경망이 어떻게 학습을 하는지 설명합니다.  
-  의 원리를 쉽게 설명합니다. 특히 기계학습의 기초를 이야기할 때마다 사용하는 MNIST(엠니스트) Dataset를 사용하여 숫자를 분별하는 원리를 설명합니다.
-  - 영어 + 한국어 자막
+# Team Project 9조
+
+홍유빈(21500804) / 이수지(21800528) / 김영민(21900141)
+
+## <프로젝트 링크>
+
+[Kaggle Project Link](https://www.kaggle.com/cdabakoglu/heart-disease-classifications-machine-learning/notebook)
+
+## <프로젝트 계기>
+
+전공과의 연관성을 살려, 생명분야에서 인공지능이 사용되는 사례를 조사하고자 하였다.
+지금까지 배웠던 많은 내용들을 포괄할 수 있는 주제를 선정하고자 하였다.
+
+## <프로젝트 개요>
+
+1. Heart desease.csv 데이터를 분석한다.
+2. Logistic Regression Algorithm을 포함한 다른 Algorithms(KNN , SVM , naive bayes , decision tree, random forest + confusion matrix)을 이용해서 heart disease를 예측해본다.
+3. 만든 모델들을 Accuracy와 Confusion Matrix를 이용해서 비교 후 최선의 모델이 무엇인지 찾아낸다.
+
+## <발표자료>
+
+script.ipynb
+
+보충자료.docx
+* 동영상은 나누어 제작(1편, 2편)
+https://youtu.be/ODGJN-cBx7Q
+https://youtu.be/cgOMwMOXBX8
+
+
 
 ## 3장 Optional [역전파 What is backpropagation really doing?](https://www.youtube.com/watch?v=Ilg3gGewQ5U&index=3&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
   - Speaker: 3Blue1Brown
