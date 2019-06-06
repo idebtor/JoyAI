@@ -111,22 +111,20 @@ https://www.youtube.com/watch?v=EA4dXhY91a8&feature=share
 
 # Team Project 12조 - 파이션을 이용해 Neraul Style Network 구현하기
 
-### < 프로젝트 소개 >
+## < 프로젝트 소개 >
 
   - 일반 사진을 유명 화가의 그림같이 보이게 한다
 --------------------------------------------------------
 
-# <프로젝트 개요>
+## <프로젝트 개요>
 - Neural Style Transfer에 대해 알아보기
 
 - 이미지의 스타일을 학습하기
 
 - 학습한 스타일을 바탕으로 Neural Style Transfer 구현하기
 
-# <프로젝트>
-
-----------------------------------
-_piazza_clz_md_2009_piazza_clz_md_2009
+## <프로젝트 산출물>
+piazza_clz_md_2009_piazza_clz_md_2009
 
 CoreAAC_DirectShow_Filter.exe
 
@@ -135,12 +133,12 @@ StyleTranfer_소개.docx
 Neural_Style_Transfer_with_Eager_Execution.ipynb
 
 (sound track is not good)
-동영상 1 : https://piazza.com/class/jsflt1hhzmp45n?cid=335
-동영상 2 : https://piazza.com/class/jsflt1hhzmp45n?cid=335
+[동영상 1](https://piazza.com/class/jsflt1hhzmp45n?cid=335)
+[동영상 2](https://piazza.com/class/jsflt1hhzmp45n?cid=335)
 
 --------------------------------------------
 
-Team Project 14 - keras와 flask web server를 활용한 타이타닉호 생존자 분석 및 예측 프로그램
+# Team Project 14 - keras와 flask web server를 활용한 타이타닉호 생존자 분석 및 예측 프로그램
 
 정혜윰(21700680)/이원빈(21900608)
 ---------------------------
@@ -150,29 +148,100 @@ Team Project 14 - keras와 flask web server를 활용한 타이타닉호 생존�
 
 타이타닉호의 탑승자들의 데이터를 받고 정보에 따라 분석해서, keras로 학습합니다. 플라스크 웹 서버에 접속하고 안내를 따라 이름, 성별, 나이, 탑승 호실 등급, 동승자 등의 정보를 입력하면  타이타닉 호 침몰 시 해당 사람의 생존 가능성을 계산하여 알려줍니다.
 
-## github 주소
+## [github 주소](https://github.com/hyeyoomj/TitanicSurvivo)
 https://github.com/hyeyoomj/TitanicSurvivor
 
-(비디오 용량이 너무 커서 링크로 업로드합니다)
 ## Video 1
-데이터 분석 및 학습하기 튜토리얼
-https://youtu.be/NgRdTigDO3o
+[데이터 분석 및 학습하기 튜토리얼](https://youtu.be/NgRdTigDO3o)
 https://www.youtube.com/watch?v=NgRdTigDO3o&feature=youtu.be
 
 ## Video 2
-학습 모델 플라스크 웹 서버와 연동하기 튜토리얼
+[학습 모델 플라스크 웹 서버와 연동하기 튜토리얼](https://www.youtube.com/watch?v=Vl6cupU0MKM)
 https://youtu.be/Vl6cupU0MKM
 
 ## 자료 및 코드파일
 TitanicSurvivormaster.zip
 
 ----------------------------------------------------
+# Team Project 4조 - MCTS를 활용한 인공지능 TicTacToe 개발
 
+장재근(21400659) / 이화평(21800608)
+--------------------------------------------
+### < 프로젝트 소개 >
+- 몬테카를로 트리 탐색(MCTS) 및 UCT 알고리즘을 이용한 인공지능 TICTACTOE게임 프로그램 제작
 
+### <다루게 될 기술>
+- Python
 
-## Optional [심화 학습과 텐서플로루 특강 Tensorflow and deep learning](https://www.youtube.com/watch?v=vq2nnJ4g6N0)
-  - Speaker: Devoxx
-  - 2:35:52
-  - 영어 + 영어 자막
+### < 프로젝트 개요 >
+- 몬테 카를로 트리 탐색에 대한 개념 이해
+- 파이썬을 이용하여 Tic-Tac-Toe 게임 구현
+- 파이썬을 이용하여 몬테카를로 트리 탐색 코드 구현
+- 파이썬을 이용하여 UCT (Upper Confidence Bounds of Tree) 알고리즘 구현
+- 게임 실행 및 확인
 
-  _One thing I know, I was blind but now I see. John 9:25_
+### < 동영상 링크 >
+1) 몬테카를로 및 몬테카를로 트리 서치에 대한 이해
+
+ https://www.youtube.com/watch?v=6-cjW6X9HAI
+
+2) MCTS 및 UCT 알고리즘 직접적 구현 및 시연
+ https://www.youtube.com/watch?v=kSZ0Ovu7nug
+
+3) 발표 자료 및 구현 코드 (.py & .ipynb)
+
+TICTACTOE_MCTS.zip
+
+인공지능의_활용_ppt.pptx
+
+------------------------------------------
+# Team Project 11조 - 코스피, 코스닥 증감률에 따른 금값 변화
+
+김석진 21700105 김예준 21900156
+-----------------------------------
+## <프로젝트 개요>
+- 코스피 , 코스닥 증감률의 데이터를 저장
+- 금값에 대한 데이터를 저장
+- 데이터들을 바탕으로 학습
+- 학습된 모델을 활용하여 금값예측
+
+## <프로젝트 결과물>
+https://youtu.be/WFmorIg0byQ
+
+18조_프로젝트.pptx
+
+goldPrice.csv
+
+goldPrice_Predict.ipynb
+
+goldPricePrecit2.ipynb
+
+------------------------------------------
+# Team Project 16/19조 - AlpaZero
+
+16조 21800041 권혁재 / 21900625 장다빈
+
+19조 21900819 황주영 / 21800235 류태동
+
+-----------------------------------
+
+케라스와 파이썬으로 딥마인드 팀의 프로젝트인 알파제로 구동하기
+
+## <프로젝트 개요>
+
+- 알파제로의 원리
+- 알파고와 알파제로의 차이점
+- 케라스 설치 및 구동
+- 알파제로를 이용하여 게임을 학습시키기
+
+## <프로젝트 결과물>
+https://youtu.be/f0GxX9OCrXs
+
+------------------------------------------
+# Team Project 16/19조 - AlpaZero
+
+16조 21800041 권혁재 / 21900625 장다빈
+
+19조 21900819 황주영 / 21800235 류태동
+
+-----------------------------------
