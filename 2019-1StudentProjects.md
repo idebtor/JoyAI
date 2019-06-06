@@ -1,16 +1,12 @@
-# Machine Learning Algorithms
-
-### 추천의 말
+# 모두를 위한 인공지능의 활용(2019-1)
 
 ----------------------------------------------------------
-## Team Project _ 15조 : (Darknet YOLO tensorflow version) "DarkFlow"
+# Team Project _ 15조 : (Darknet YOLO tensorflow version) "DarkFlow"
 21700748 최지호, 21900556 이재민
 
-# 프로젝트 개요
+## 프로젝트 개요
 ____________________________________________
-
----------
-# Darknet YOLO tensorflow version "DarkFlow"에 대하여
+## Darknet YOLO tensorflow version "DarkFlow"에 대하여
 --------
 + Darket Yolo는 수업시간 ted강의로 나왔던 주제입니다. C와 CUDA로 작성된 오픈 소스 신경망 프레임 워크이며, 빠르고 설치가 쉽고 CPU 및 GPU계산을 지원하고 있습니다.
 
@@ -21,7 +17,8 @@ ____________________________________________
 따라서
 ------
 
-## MAC OS에서도 darknet yolo를 구동 할 수 있어 본 프로젝트는 "MAC OS" 환경의 터미널에서 "Darkflow 설치 및 실행해보기" 입니다.
+## 프로젝트의 목적
+MAC OS에서도 darknet yolo를 구동 할 수 있어 본 프로젝트는 "MAC OS" 환경의 터미널에서 "Darkflow 설치 및 실행해보기" 입니다.
 
 + 프로젝트를 통해
 
@@ -37,7 +34,6 @@ ____________________________________________
 
   영상 주소 : https://www.youtube.com/watch?v=yxQGlMLegcs&feature=youtu.be
   포스팅 블로그 주소: https://blog.naver.com/co748/221554688233
-
   ppt : Darknet_Yolo_Tensorflow.pptx
 
   코드 : 해당 블로그 주소 포스팅을 통해 git clone이 가능합니다.
