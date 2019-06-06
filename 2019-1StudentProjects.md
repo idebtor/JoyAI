@@ -291,9 +291,7 @@ Neural_Style_Transfer_with_Eager_Execution.ipynb
 (Good sound track video in YouTube)
 
 -----------------------------
-# Team Project 13 -
-
-
+# Team Project 13 - Tensorflow와 LSTM RNN을 이용하여 아마존 주가 예측하기
 
 ## 프로젝트 개요
 - 과거와 현재 일별 주가와 거래량을 이용하여 미국 아마존의 내일 주가을 예측한다
@@ -301,7 +299,14 @@ Neural_Style_Transfer_with_Eager_Execution.ipynb
 - LSTM 네트워크 생성, RNN 생성
 - 그래프 출력
 
+## 프로젝트 결과물
+[설명 동영상]()
 
+AMZN.csv
+
+LSTM_RNN_설명.pptx
+
+Tensorflow와_LSTM_RNN을_이용하여_아마존_주가_예측하기.ipynb
 
 
 --------------------------------------------
