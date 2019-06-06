@@ -62,27 +62,113 @@ MAC OS에서도 darknet yolo를 구동 할 수 있어 본 프로젝트는 "MAC O
 
 ## <발표자료>
 
-script.ipynb
+[script.ipynb](https://github.com/idebtor/JoyAI/tree/master/projects/9%EC%A1%B0-%EC%8B%AC%EC%9E%A5%EC%A7%88%ED%99%98(LogisiticRegression))
 
-보충자료.docx
+[보충자료.docx](https://github.com/idebtor/JoyAI/tree/master/projects/9%EC%A1%B0-%EC%8B%AC%EC%9E%A5%EC%A7%88%ED%99%98(LogisiticRegression))
 
 * 동영상은 나누어 제작(1편, 2편)
 [동영상 설명 1](https://youtu.be/ODGJN-cBx7Q)
 [동영상 설명 1](https://youtu.be/cgOMwMOXBX8)
 
+---------------------------------
 
-## 3장 Optional [역전파 What is backpropagation really doing?](https://www.youtube.com/watch?v=Ilg3gGewQ5U&index=3&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
-  - Speaker: 3Blue1Brown
-  - 13:54 (조회 1.1 million)
-  인공신경망 알고리즘의 핵심은 역전파(backpropagation) 알고리즘인데, 이 역전파의 원리를 탁월한 시각적 효과를 사용하여 설명합니다.
-  의 원리를 쉽게 설명합니다. 특히 기계학습의 기초를 이야기할 때마다 사용하는 MNIST(엠니스트) Dataset를 사용하여 숫자를 분별하는 원리를 설명합니다.
-  - 영어 + 영어 자막
+# Team Project 18조 - 블록체인을 이해하고 간단한 블록체인 코어를 구현해보기
 
-## 4장 Optional [backpropagation calculus](https://www.youtube.com/watch?v=tIeHLnjs5U8&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=4)
-- Speaker: 3Blue1Brown
-- 10:17 (조회 0.7 million)
-- This one is a bit more symbol heavy, and that's actually the point.  The goal here is to represent in somewhat more formal terms the intuition for how backpropagation works in part 3 of the series, hopefully providing some connection between that video and other texts/code that you come across later.
-- 영어 + 영어 자막
+최혁진(21900771)
+-------------------------------
+
+## <프로젝트 소개>
+화폐의 원래 개념과, 은행에서의 transaction vs. 블록체인의 transaction원리를 비교해 보고 블록체인의 코어를 코딩해보고 구동해보는 것입니다.
+
+
+
+## <다루게 될 기술>
+hashlib
+json
+파이썬
+class 함수
+
+## <프로젝트 개요>
+class를 통해 블록에 거래내역 (nonce, Tstamp, transaction, prevhash)을 부여한다
+
+hashlib과 json을 import해 블록의 거래내역을 암호화 한다 (sha.256사용)
+
+class를 이용해 Genesis블록과 블록체인을 구현한다
+
+for range를 이용해 블록이 손상됬을 경우 블록이 체인에 추가되지 못하도록 한다
+
+블록체인 구현을 한것을 임의로 만든 것과, 그 만든 것의 데이터를 조작 (해킹)한 후 블록이 쓰일 수 있는 블록인지 (True) 쓰일 수 없는 블록인지 (Invalid, False) 구분한다
+
+
+<동영상 링크>
+https://www.youtube.com/watch?v=EA4dXhY91a8&feature=share
+
+21900771_최혁진_Block_Chain_.ipynb
+
+21900771_최혁진__미래의_화폐로서의_가능성_블록체인.pptx
+
+--------------------------------------------------
+
+# Team Project 12조 - 파이션을 이용해 Neraul Style Network 구현하기
+
+### < 프로젝트 소개 >
+
+  - 일반 사진을 유명 화가의 그림같이 보이게 한다
+--------------------------------------------------------
+
+# <프로젝트 개요>
+- Neural Style Transfer에 대해 알아보기
+
+- 이미지의 스타일을 학습하기
+
+- 학습한 스타일을 바탕으로 Neural Style Transfer 구현하기
+
+# <프로젝트>
+
+----------------------------------
+_piazza_clz_md_2009_piazza_clz_md_2009
+
+CoreAAC_DirectShow_Filter.exe
+
+StyleTranfer_소개.docx
+
+Neural_Style_Transfer_with_Eager_Execution.ipynb
+
+(sound track is not good)
+동영상 1 : https://piazza.com/class/jsflt1hhzmp45n?cid=335
+동영상 2 : https://piazza.com/class/jsflt1hhzmp45n?cid=335
+
+--------------------------------------------
+
+Team Project 14 - keras와 flask web server를 활용한 타이타닉호 생존자 분석 및 예측 프로그램
+
+정혜윰(21700680)/이원빈(21900608)
+---------------------------
+## 프로젝트 개요
+
+1912년 침몰한 타이타닉호 생존 가능성 예측 프로그램입니다.
+
+타이타닉호의 탑승자들의 데이터를 받고 정보에 따라 분석해서, keras로 학습합니다. 플라스크 웹 서버에 접속하고 안내를 따라 이름, 성별, 나이, 탑승 호실 등급, 동승자 등의 정보를 입력하면  타이타닉 호 침몰 시 해당 사람의 생존 가능성을 계산하여 알려줍니다.
+
+## github 주소
+https://github.com/hyeyoomj/TitanicSurvivor
+
+(비디오 용량이 너무 커서 링크로 업로드합니다)
+## Video 1
+데이터 분석 및 학습하기 튜토리얼
+https://youtu.be/NgRdTigDO3o
+https://www.youtube.com/watch?v=NgRdTigDO3o&feature=youtu.be
+
+## Video 2
+학습 모델 플라스크 웹 서버와 연동하기 튜토리얼
+https://youtu.be/Vl6cupU0MKM
+
+## 자료 및 코드파일
+TitanicSurvivormaster.zip
+
+----------------------------------------------------
+
+
 
 ## Optional [심화 학습과 텐서플로루 특강 Tensorflow and deep learning](https://www.youtube.com/watch?v=vq2nnJ4g6N0)
   - Speaker: Devoxx
