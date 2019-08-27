@@ -57,7 +57,10 @@ Use the following command if you need more installation of packages (-U for upgr
   $ pip install -U a_package_name              
   ```
 
-## Install GitHub Desktop
+## Install "Git" and "GitHub Desktop"
+  - Install __git__ from [this site](https://git-scm.com/downloads) for your computer.
+  - Install __GitHub Desktop__
+
 After installation of __GitHub Desktop__, be a member if already not.
 
   - Clone the GitHub `JoyAI` repository into your local computer:
