@@ -10,6 +10,10 @@ GitHub Desktop은 Git의 일부 중요한 기능(명령)만을 발췌하여 쉽�
 1. Run the following two commands.
 
 ```
+git stash
+```
+
+```
 git fetch --all
 git reset --hard origin/master
 ```
