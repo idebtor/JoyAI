@@ -12,7 +12,17 @@ Lecture Notes by idebtor@gmail.com
 
   This is available at [github.com/idebtor/JoyAI](https://github.com/idebtor/JoyAI).
 
-## Join Piazza.
+
+### How to view markdown(.md) files in Chrome (or rendering in HTML)
+  0. View them always in github website automatically and better.
+  - and/or
+  1. Install `Markdown Viewer` extension.
+  2. Navigate to `chrome://extensions` and
+      - Locate `Markdown Viewer` and click on the `DETAILS` button
+      - Check the option `Allow access to file URLs`
+  2. (크롬에서 `chrome://extensions` 접속 한 후, `Markdown Viewer` `세부정보`에서 "파일 URL에 대한 액세스 허용"을 체크하십시오)
+  3. Open local or remote .md file in Chrome.
+  4. Enjoy nicely formatted HTML!
 
 There are two ways to join Piazza, go the www.piazza.com.
   - To join Piazza, you may need the following information and
@@ -35,7 +45,10 @@ Anaconda is  a Python and R distribution package. It aims to provide everything 
     - Choose one of Windows/MacOS/Linux
     - Python 3.x Version Download
   - At the beginning of installation, check the following option
-      - Add Anaconda to my PATH environment variable  
+      - Add Anaconda to my PATH environment variable as shown below:
+
+    <p align="center"> <img src="https://github.com/idebtor/KMOOC-ML/blob/master/ipynb/images/anaconda_check_path.png" width=500"> </p>
+
   - Need help? Follow [this guide](https://m.blog.naver.com/PostView.nhn?blogId=jooostory&logNo=221196479998&proxyReferer=https%3A%2F%2Fwww.google.com%2F).
 
 #### After your installation
