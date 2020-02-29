@@ -91,13 +91,11 @@ After installation of __GitHub Desktop__, be a member if already not.
   - Copy them into your own repository or your own local development folders in your computer you can easily access them.  They should look like the following:
     ```
     ~/JoyAI/dataset
-    ~/JoyAI/deep_class
-    ~/JoyAI/deep_code
+    ~/JoyAI/ipynb
     ~/JoyAI/ppts
     ~/JoyAI/01GettingStarted.md
     ~/JoyAI/README.md             
     ~/JoyAI/Syllabus       
-    ~/JoyAI/Weekly01-02OpenLectures.md
 
     ```
 
@@ -131,6 +129,11 @@ After installation of __GitHub Desktop__, be a member if already not.
       3. Press 'm' to select move
       4. Press any arrow key once
       5. Move your mouse (The misplaced window will follow your cursor.)
+
+    Alternatively, remove the following file: [`user` is your login name]
+      ```
+      C:\Users\user\AppData\Roaming\GitHub Desktop\window-state.json
+      ```
 
 ## Are ready for 'Hello World!' program in Python?
   - Open a console. (You may use cmd or powershell in Windows.)  

@@ -20,7 +20,7 @@ git stash
 
 __Explanation:__ `git fetch` downloads the latest from remote without trying to merge or rebase anything. Then the `git reset` resets the master branch to what you just fetched. The `--hard` option changes all the files in your working tree to match the files in origin/master
 
-__Causion:__ If you have any local changes, they will be lost. With or without --hard option, any local commits that haven't been pushed will be lost.
+__Caution:__ If you have any local changes, they will be lost. With or without --hard option, any local commits that haven't been pushed will be lost.
 
 
 ### 2. master/origin에 존재하지 않는 local repository files/folders를 모두 삭제하기
