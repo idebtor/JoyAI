@@ -1,5 +1,7 @@
 # Welcome to GitWikis
----------------------------------------------
+------------------------
+Good FAQ Web Site: [here](https://www.git-tower.com/learn/git/faq/)
+-----------------------
 ### 1. local repository files을 모두 origin/master와 강제로 동기화(Overwrite)하기
 
 GitHub Desktop은 Git의 일부 중요한 기능(명령)만을 발췌하여 쉽게 사용하도록 만든 윈도우 인터페이스 적용한 프로그램입니다. 그러므로, 좀 자세하고, 다양한 Git의 기능을 사용하려면, Console에서 Git 명령어를 사용하여 우리가 필요한 작업을 해야합니다. Git을 사용하려면, git도 설치해야 합니다.
