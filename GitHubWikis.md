@@ -1,6 +1,8 @@
 # Welcome to GitWikis
 ------------------------
 Good FAQ Web Site: [here](https://www.git-tower.com/learn/git/faq/)
+  - [Merge conflict](https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/merge-conflicts)
+  - [Difference between fetch & pull](https://www.git-tower.com/learn/git/faq/difference-between-git-fetch-git-pull)
 -----------------------
 ### 1. local repository files을 모두 origin/master와 강제로 동기화(Overwrite)하기
 
