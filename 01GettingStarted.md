@@ -56,9 +56,11 @@ Do the following in cmd windows or in PowerShell to check your successful instal
 
       ```
       $ python
+      >>> Python 3.7.7 (default, May  6 2020, 11:45:54) [MSC v.1916 64 bit (AMD64)] :: Anaconda, Inc. on win32
+          Type "help", "copyright", "credits" or "license" for more information.
       >>> import tensorflow as tf
       >>> print(tf.__version__)
-      1.13.1
+      2.3.0
       >>> import keras
       Using TensorFlow backend
       ```
@@ -90,13 +92,11 @@ After installation of __GitHub Desktop__, be a member if already not.
   - Since this `JoyAI` repository can be updated anytime, keep this local repository as "read-only".  Don't code yours here!.
   - Copy them into your own repository or your own local development folders in your computer you can easily access them.  They should look like the following:
     ```
-    ~/JoyAI/dataset
-    ~/JoyAI/ipynb
     ~/JoyAI/ppts
+    ~/JoyAI/ipynb
     ~/JoyAI/01GettingStarted.md
     ~/JoyAI/README.md             
     ~/JoyAI/Syllabus       
-
     ```
 
       __Note for Multi-screen users:__ Remove the following file if GitHub Desktop is displayed off-screen. Restart Desktop GitHub. (`user` below may be different in your system.)
@@ -104,39 +104,8 @@ After installation of __GitHub Desktop__, be a member if already not.
       C:\Users\user\AppData\Roaming\GitHub Desktop\window-state.json
       ```
 
-## Install Atom.
-  1. Atom is a text editor that most professional programmers love nowadays.
-  2. Start Atom.
-  3. Install some of essential packages recommended for C/C++ programmers listed below:
-
-    - Autosave
-      - It automatically saves files when the editors loses focus, are destroyed, or when the window is closed. Believe or not, it is disabled by default. __You must check `enabled`__ in config setting or from the Autosave section of the Settings view.
-
-    - Markdown-preview
-      - Open a rendered version of the Markdown in the current editor with `ctrl-shift-m`.
-    - File-icons
-    - Mini-maps
-
-    __Themes of my personal preference__:
-      - UI Theme: __Atom Dark__
-      - Syntax Theme: __Oceanic Next__
-
-    __Note for Multi-screen users:__
-
-    If Atom is displayed off-screen, do the following:
-      1. Alt + Tab to choose the atom window
-      2. Alt + Space to open the context menu
-      3. Press 'm' to select move
-      4. Press any arrow key once
-      5. Move your mouse (The misplaced window will follow your cursor.)
-
-    Alternatively, remove the following file: [`user` is your login name]
-      ```
-      C:\Users\user\AppData\Roaming\GitHub Desktop\window-state.json
-      ```
-
 ## Are ready for 'Hello World!' program in Python?
-  - Open a console. (You may use cmd or powershell in Windows.)  
+  - Open a console. (You may use `Anacond Prompt`, `cmd` or `powershell` in Windows.)  
 
   ```
   $ python
@@ -150,11 +119,15 @@ After installation of __GitHub Desktop__, be a member if already not.
 ## A few ways to start Jupyter notebook
 
 __Method 1__:
-  1. Using Anaconda Navigator, choose Jupyter Notebook.
+This option always works: 
+  1. Go to the Windows menu `<Start> -> <Anaconda 3> -> <Anaconda Prompt>`
+  2. At a console, enter the following:
+  ```
+  (base) C:\Users\user> jupyter notebook
+  ```
 
 __Method 2__:
-
-(This option may not work unless you have set PATH environment variable.)
+This method may not work unless you have set PATH environment variable.
   1. Using File Explorer, navigate to where your Jupyter notebook file is
   2. Using File menu in File Explorer, click Open PowerShell(PS).
   3. At PS console, enter the following:
@@ -168,19 +141,9 @@ This is one-line batch command file that runs Jupyter notebook.
   2. Place the batch file at the folder where your notebook file is.
   3. Double-click the batch file.
 
-__Method 4__: (unstable)
-
-Make an association .ipynb extension with Jupyter Notebook.
-  1. `python -m pip install nbopen`
-  2. To integrate with your file manager, so you can double click on notebooks to open them, run:
-
-    - Linux/BSD: python -m nbopen.install_xdg
-
-    - Windows: python -m nbopen.install_win
-
-    - Mac: Clone the [repository](https://github.com/takluyver/nbopen) and run ./osx-install.sh
-
-
+__Method 4__:
+This is not recommended since it is too slow to get into the notebook.
+  1. Using Anaconda Navigator, choose Jupyter Notebook.
 
 -----------------------------------------------
 
