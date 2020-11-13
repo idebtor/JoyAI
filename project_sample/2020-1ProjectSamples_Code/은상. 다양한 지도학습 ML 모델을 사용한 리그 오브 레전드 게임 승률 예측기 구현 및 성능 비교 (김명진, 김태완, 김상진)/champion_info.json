@@ -1,0 +1,834 @@
+{
+    "type": "champion",
+    "version": "7.17.2",
+    "data": {
+        "1": {
+            "title": "the Dark Child",
+            "id": 1,
+            "key": "Annie",
+            "name": "Annie"
+        },
+        "2": {
+            "title": "the Berserker",
+            "id": 2,
+            "key": "Olaf",
+            "name": "Olaf"
+        },
+        "3": {
+            "title": "the Colossus",
+            "id": 3,
+            "key": "Galio",
+            "name": "Galio"
+        },
+        "4": {
+            "title": "the Card Master",
+            "id": 4,
+            "key": "TwistedFate",
+            "name": "Twisted Fate"
+        },
+        "5": {
+            "title": "the Seneschal of Demacia",
+            "id": 5,
+            "key": "XinZhao",
+            "name": "Xin Zhao"
+        },
+        "6": {
+            "title": "the Dreadnought",
+            "id": 6,
+            "key": "Urgot",
+            "name": "Urgot"
+        },
+        "7": {
+            "title": "the Deceiver",
+            "id": 7,
+            "key": "Leblanc",
+            "name": "LeBlanc"
+        },
+        "8": {
+            "title": "the Crimson Reaper",
+            "id": 8,
+            "key": "Vladimir",
+            "name": "Vladimir"
+        },
+        "9": {
+            "title": "the Harbinger of Doom",
+            "id": 9,
+            "key": "Fiddlesticks",
+            "name": "Fiddlesticks"
+        },
+        "10": {
+            "title": "The Judicator",
+            "id": 10,
+            "key": "Kayle",
+            "name": "Kayle"
+        },
+        "11": {
+            "title": "the Wuju Bladesman",
+            "id": 11,
+            "key": "MasterYi",
+            "name": "Master Yi"
+        },
+        "12": {
+            "title": "the Minotaur",
+            "id": 12,
+            "key": "Alistar",
+            "name": "Alistar"
+        },
+        "13": {
+            "title": "the Rune Mage",
+            "id": 13,
+            "key": "Ryze",
+            "name": "Ryze"
+        },
+        "14": {
+            "title": "The Undead Juggernaut",
+            "id": 14,
+            "key": "Sion",
+            "name": "Sion"
+        },
+        "15": {
+            "title": "the Battle Mistress",
+            "id": 15,
+            "key": "Sivir",
+            "name": "Sivir"
+        },
+        "16": {
+            "title": "the Starchild",
+            "id": 16,
+            "key": "Soraka",
+            "name": "Soraka"
+        },
+        "17": {
+            "title": "the Swift Scout",
+            "id": 17,
+            "key": "Teemo",
+            "name": "Teemo"
+        },
+        "18": {
+            "title": "the Yordle Gunner",
+            "id": 18,
+            "key": "Tristana",
+            "name": "Tristana"
+        },
+        "19": {
+            "title": "the Uncaged Wrath of Zaun",
+            "id": 19,
+            "key": "Warwick",
+            "name": "Warwick"
+        },
+        "20": {
+            "title": "the Yeti Rider",
+            "id": 20,
+            "key": "Nunu",
+            "name": "Nunu"
+        },
+        "21": {
+            "title": "the Bounty Hunter",
+            "id": 21,
+            "key": "MissFortune",
+            "name": "Miss Fortune"
+        },
+        "22": {
+            "title": "the Frost Archer",
+            "id": 22,
+            "key": "Ashe",
+            "name": "Ashe"
+        },
+        "23": {
+            "title": "the Barbarian King",
+            "id": 23,
+            "key": "Tryndamere",
+            "name": "Tryndamere"
+        },
+        "24": {
+            "title": "Grandmaster at Arms",
+            "id": 24,
+            "key": "Jax",
+            "name": "Jax"
+        },
+        "25": {
+            "title": "Fallen Angel",
+            "id": 25,
+            "key": "Morgana",
+            "name": "Morgana"
+        },
+        "26": {
+            "title": "the Chronokeeper",
+            "id": 26,
+            "key": "Zilean",
+            "name": "Zilean"
+        },
+        "27": {
+            "title": "the Mad Chemist",
+            "id": 27,
+            "key": "Singed",
+            "name": "Singed"
+        },
+        "28": {
+            "title": "the Widowmaker",
+            "id": 28,
+            "key": "Evelynn",
+            "name": "Evelynn"
+        },
+        "29": {
+            "title": "the Plague Rat",
+            "id": 29,
+            "key": "Twitch",
+            "name": "Twitch"
+        },
+        "30": {
+            "title": "the Deathsinger",
+            "id": 30,
+            "key": "Karthus",
+            "name": "Karthus"
+        },
+        "31": {
+            "title": "the Terror of the Void",
+            "id": 31,
+            "key": "Chogath",
+            "name": "Cho'Gath"
+        },
+        "32": {
+            "title": "the Sad Mummy",
+            "id": 32,
+            "key": "Amumu",
+            "name": "Amumu"
+        },
+        "33": {
+            "title": "the Armordillo",
+            "id": 33,
+            "key": "Rammus",
+            "name": "Rammus"
+        },
+        "34": {
+            "title": "the Cryophoenix",
+            "id": 34,
+            "key": "Anivia",
+            "name": "Anivia"
+        },
+        "35": {
+            "title": "the Demon Jester",
+            "id": 35,
+            "key": "Shaco",
+            "name": "Shaco"
+        },
+        "36": {
+            "title": "the Madman of Zaun",
+            "id": 36,
+            "key": "DrMundo",
+            "name": "Dr. Mundo"
+        },
+        "37": {
+            "title": "Maven of the Strings",
+            "id": 37,
+            "key": "Sona",
+            "name": "Sona"
+        },
+        "38": {
+            "title": "the Void Walker",
+            "id": 38,
+            "key": "Kassadin",
+            "name": "Kassadin"
+        },
+        "39": {
+            "title": "the Will of the Blades",
+            "id": 39,
+            "key": "Irelia",
+            "name": "Irelia"
+        },
+        "40": {
+            "title": "the Storm's Fury",
+            "id": 40,
+            "key": "Janna",
+            "name": "Janna"
+        },
+        "41": {
+            "title": "the Saltwater Scourge",
+            "id": 41,
+            "key": "Gangplank",
+            "name": "Gangplank"
+        },
+        "42": {
+            "title": "the Daring Bombardier",
+            "id": 42,
+            "key": "Corki",
+            "name": "Corki"
+        },
+        "43": {
+            "title": "the Enlightened One",
+            "id": 43,
+            "key": "Karma",
+            "name": "Karma"
+        },
+        "44": {
+            "title": "the Shield of Valoran",
+            "id": 44,
+            "key": "Taric",
+            "name": "Taric"
+        },
+        "45": {
+            "title": "the Tiny Master of Evil",
+            "id": 45,
+            "key": "Veigar",
+            "name": "Veigar"
+        },
+        "48": {
+            "title": "the Troll King",
+            "id": 48,
+            "key": "Trundle",
+            "name": "Trundle"
+        },
+        "50": {
+            "title": "the Master Tactician",
+            "id": 50,
+            "key": "Swain",
+            "name": "Swain"
+        },
+        "51": {
+            "title": "the Sheriff of Piltover",
+            "id": 51,
+            "key": "Caitlyn",
+            "name": "Caitlyn"
+        },
+        "53": {
+            "title": "the Great Steam Golem",
+            "id": 53,
+            "key": "Blitzcrank",
+            "name": "Blitzcrank"
+        },
+        "54": {
+            "title": "Shard of the Monolith",
+            "id": 54,
+            "key": "Malphite",
+            "name": "Malphite"
+        },
+        "55": {
+            "title": "the Sinister Blade",
+            "id": 55,
+            "key": "Katarina",
+            "name": "Katarina"
+        },
+        "56": {
+            "title": "the Eternal Nightmare",
+            "id": 56,
+            "key": "Nocturne",
+            "name": "Nocturne"
+        },
+        "57": {
+            "title": "the Twisted Treant",
+            "id": 57,
+            "key": "Maokai",
+            "name": "Maokai"
+        },
+        "58": {
+            "title": "the Butcher of the Sands",
+            "id": 58,
+            "key": "Renekton",
+            "name": "Renekton"
+        },
+        "59": {
+            "title": "the Exemplar of Demacia",
+            "id": 59,
+            "key": "JarvanIV",
+            "name": "Jarvan IV"
+        },
+        "60": {
+            "title": "the Spider Queen",
+            "id": 60,
+            "key": "Elise",
+            "name": "Elise"
+        },
+        "61": {
+            "title": "the Lady of Clockwork",
+            "id": 61,
+            "key": "Orianna",
+            "name": "Orianna"
+        },
+        "62": {
+            "title": "the Monkey King",
+            "id": 62,
+            "key": "MonkeyKing",
+            "name": "Wukong"
+        },
+        "63": {
+            "title": "the Burning Vengeance",
+            "id": 63,
+            "key": "Brand",
+            "name": "Brand"
+        },
+        "64": {
+            "title": "the Blind Monk",
+            "id": 64,
+            "key": "LeeSin",
+            "name": "Lee Sin"
+        },
+        "67": {
+            "title": "the Night Hunter",
+            "id": 67,
+            "key": "Vayne",
+            "name": "Vayne"
+        },
+        "68": {
+            "title": "the Mechanized Menace",
+            "id": 68,
+            "key": "Rumble",
+            "name": "Rumble"
+        },
+        "69": {
+            "title": "the Serpent's Embrace",
+            "id": 69,
+            "key": "Cassiopeia",
+            "name": "Cassiopeia"
+        },
+        "72": {
+            "title": "the Crystal Vanguard",
+            "id": 72,
+            "key": "Skarner",
+            "name": "Skarner"
+        },
+        "74": {
+            "title": "the Revered Inventor",
+            "id": 74,
+            "key": "Heimerdinger",
+            "name": "Heimerdinger"
+        },
+        "75": {
+            "title": "the Curator of the Sands",
+            "id": 75,
+            "key": "Nasus",
+            "name": "Nasus"
+        },
+        "76": {
+            "title": "the Bestial Huntress",
+            "id": 76,
+            "key": "Nidalee",
+            "name": "Nidalee"
+        },
+        "77": {
+            "title": "the Spirit Walker",
+            "id": 77,
+            "key": "Udyr",
+            "name": "Udyr"
+        },
+        "78": {
+            "title": "Keeper of the Hammer",
+            "id": 78,
+            "key": "Poppy",
+            "name": "Poppy"
+        },
+        "79": {
+            "title": "the Rabble Rouser",
+            "id": 79,
+            "key": "Gragas",
+            "name": "Gragas"
+        },
+        "80": {
+            "title": "the Artisan of War",
+            "id": 80,
+            "key": "Pantheon",
+            "name": "Pantheon"
+        },
+        "81": {
+            "title": "the Prodigal Explorer",
+            "id": 81,
+            "key": "Ezreal",
+            "name": "Ezreal"
+        },
+        "82": {
+            "title": "the Iron Revenant",
+            "id": 82,
+            "key": "Mordekaiser",
+            "name": "Mordekaiser"
+        },
+        "83": {
+            "title": "Shepherd of Souls",
+            "id": 83,
+            "key": "Yorick",
+            "name": "Yorick"
+        },
+        "84": {
+            "title": "the Fist of Shadow",
+            "id": 84,
+            "key": "Akali",
+            "name": "Akali"
+        },
+        "85": {
+            "title": "the Heart of the Tempest",
+            "id": 85,
+            "key": "Kennen",
+            "name": "Kennen"
+        },
+        "86": {
+            "title": "The Might of Demacia",
+            "id": 86,
+            "key": "Garen",
+            "name": "Garen"
+        },
+        "89": {
+            "title": "the Radiant Dawn",
+            "id": 89,
+            "key": "Leona",
+            "name": "Leona"
+        },
+        "90": {
+            "title": "the Prophet of the Void",
+            "id": 90,
+            "key": "Malzahar",
+            "name": "Malzahar"
+        },
+        "91": {
+            "title": "the Blade's Shadow",
+            "id": 91,
+            "key": "Talon",
+            "name": "Talon"
+        },
+        "92": {
+            "title": "the Exile",
+            "id": 92,
+            "key": "Riven",
+            "name": "Riven"
+        },
+        "96": {
+            "title": "the Mouth of the Abyss",
+            "id": 96,
+            "key": "KogMaw",
+            "name": "Kog'Maw"
+        },
+        "98": {
+            "title": "the Eye of Twilight",
+            "id": 98,
+            "key": "Shen",
+            "name": "Shen"
+        },
+        "99": {
+            "title": "the Lady of Luminosity",
+            "id": 99,
+            "key": "Lux",
+            "name": "Lux"
+        },
+        "101": {
+            "title": "the Magus Ascendant",
+            "id": 101,
+            "key": "Xerath",
+            "name": "Xerath"
+        },
+        "102": {
+            "title": "the Half-Dragon",
+            "id": 102,
+            "key": "Shyvana",
+            "name": "Shyvana"
+        },
+        "103": {
+            "title": "the Nine-Tailed Fox",
+            "id": 103,
+            "key": "Ahri",
+            "name": "Ahri"
+        },
+        "104": {
+            "title": "the Outlaw",
+            "id": 104,
+            "key": "Graves",
+            "name": "Graves"
+        },
+        "105": {
+            "title": "the Tidal Trickster",
+            "id": 105,
+            "key": "Fizz",
+            "name": "Fizz"
+        },
+        "106": {
+            "title": "the Thunder's Roar",
+            "id": 106,
+            "key": "Volibear",
+            "name": "Volibear"
+        },
+        "107": {
+            "title": "the Pridestalker",
+            "id": 107,
+            "key": "Rengar",
+            "name": "Rengar"
+        },
+        "110": {
+            "title": "the Arrow of Retribution",
+            "id": 110,
+            "key": "Varus",
+            "name": "Varus"
+        },
+        "111": {
+            "title": "the Titan of the Depths",
+            "id": 111,
+            "key": "Nautilus",
+            "name": "Nautilus"
+        },
+        "112": {
+            "title": "the Machine Herald",
+            "id": 112,
+            "key": "Viktor",
+            "name": "Viktor"
+        },
+        "113": {
+            "title": "Fury of the North",
+            "id": 113,
+            "key": "Sejuani",
+            "name": "Sejuani"
+        },
+        "114": {
+            "title": "the Grand Duelist",
+            "id": 114,
+            "key": "Fiora",
+            "name": "Fiora"
+        },
+        "115": {
+            "title": "the Hexplosives Expert",
+            "id": 115,
+            "key": "Ziggs",
+            "name": "Ziggs"
+        },
+        "117": {
+            "title": "the Fae Sorceress",
+            "id": 117,
+            "key": "Lulu",
+            "name": "Lulu"
+        },
+        "119": {
+            "title": "the Glorious Executioner",
+            "id": 119,
+            "key": "Draven",
+            "name": "Draven"
+        },
+        "120": {
+            "title": "the Shadow of War",
+            "id": 120,
+            "key": "Hecarim",
+            "name": "Hecarim"
+        },
+        "121": {
+            "title": "the Voidreaver",
+            "id": 121,
+            "key": "Khazix",
+            "name": "Kha'Zix"
+        },
+        "122": {
+            "title": "the Hand of Noxus",
+            "id": 122,
+            "key": "Darius",
+            "name": "Darius"
+        },
+        "126": {
+            "title": "the Defender of Tomorrow",
+            "id": 126,
+            "key": "Jayce",
+            "name": "Jayce"
+        },
+        "127": {
+            "title": "the Ice Witch",
+            "id": 127,
+            "key": "Lissandra",
+            "name": "Lissandra"
+        },
+        "131": {
+            "title": "Scorn of the Moon",
+            "id": 131,
+            "key": "Diana",
+            "name": "Diana"
+        },
+        "133": {
+            "title": "Demacia's Wings",
+            "id": 133,
+            "key": "Quinn",
+            "name": "Quinn"
+        },
+        "134": {
+            "title": "the Dark Sovereign",
+            "id": 134,
+            "key": "Syndra",
+            "name": "Syndra"
+        },
+        "136": {
+            "title": "The Star Forger",
+            "id": 136,
+            "key": "AurelionSol",
+            "name": "Aurelion Sol"
+        },
+        "141": {
+            "title": "the Shadow Reaper",
+            "id": 141,
+            "key": "Kayn",
+            "name": "Kayn"
+        },
+        "143": {
+            "title": "Rise of the Thorns",
+            "id": 143,
+            "key": "Zyra",
+            "name": "Zyra"
+        },
+        "150": {
+            "title": "the Missing Link",
+            "id": 150,
+            "key": "Gnar",
+            "name": "Gnar"
+        },
+        "154": {
+            "title": "the Secret Weapon",
+            "id": 154,
+            "key": "Zac",
+            "name": "Zac"
+        },
+        "157": {
+            "title": "the Unforgiven",
+            "id": 157,
+            "key": "Yasuo",
+            "name": "Yasuo"
+        },
+        "161": {
+            "title": "the Eye of the Void",
+            "id": 161,
+            "key": "Velkoz",
+            "name": "Vel'Koz"
+        },
+        "163": {
+            "title": "the Stoneweaver",
+            "id": 163,
+            "key": "Taliyah",
+            "name": "Taliyah"
+        },
+        "164": {
+            "title": "the Steel Shadow",
+            "id": 164,
+            "key": "Camille",
+            "name": "Camille"
+        },
+        "201": {
+            "title": "the Heart of the Freljord",
+            "id": 201,
+            "key": "Braum",
+            "name": "Braum"
+        },
+        "202": {
+            "title": "the Virtuoso",
+            "id": 202,
+            "key": "Jhin",
+            "name": "Jhin"
+        },
+        "203": {
+            "title": "The Eternal Hunters",
+            "id": 203,
+            "key": "Kindred",
+            "name": "Kindred"
+        },
+        "222": {
+            "title": "the Loose Cannon",
+            "id": 222,
+            "key": "Jinx",
+            "name": "Jinx"
+        },
+        "223": {
+            "title": "the River King",
+            "id": 223,
+            "key": "TahmKench",
+            "name": "Tahm Kench"
+        },
+        "236": {
+            "title": "the Purifier",
+            "id": 236,
+            "key": "Lucian",
+            "name": "Lucian"
+        },
+        "238": {
+            "title": "the Master of Shadows",
+            "id": 238,
+            "key": "Zed",
+            "name": "Zed"
+        },
+        "240": {
+            "title": "the Cantankerous Cavalier",
+            "id": 240,
+            "key": "Kled",
+            "name": "Kled"
+        },
+        "245": {
+            "title": "the Boy Who Shattered Time",
+            "id": 245,
+            "key": "Ekko",
+            "name": "Ekko"
+        },
+        "254": {
+            "title": "the Piltover Enforcer",
+            "id": 254,
+            "key": "Vi",
+            "name": "Vi"
+        },
+        "266": {
+            "title": "the Darkin Blade",
+            "id": 266,
+            "key": "Aatrox",
+            "name": "Aatrox"
+        },
+        "267": {
+            "title": "the Tidecaller",
+            "id": 267,
+            "key": "Nami",
+            "name": "Nami"
+        },
+        "268": {
+            "title": "the Emperor of the Sands",
+            "id": 268,
+            "key": "Azir",
+            "name": "Azir"
+        },
+        "412": {
+            "title": "the Chain Warden",
+            "id": 412,
+            "key": "Thresh",
+            "name": "Thresh"
+        },
+        "420": {
+            "title": "the Kraken Priestess",
+            "id": 420,
+            "key": "Illaoi",
+            "name": "Illaoi"
+        },
+        "421": {
+            "title": "the Void Burrower",
+            "id": 421,
+            "key": "RekSai",
+            "name": "Rek'Sai"
+        },
+        "427": {
+            "title": "the Green Father",
+            "id": 427,
+            "key": "Ivern",
+            "name": "Ivern"
+        },
+        "429": {
+            "title": "the Spear of Vengeance",
+            "id": 429,
+            "key": "Kalista",
+            "name": "Kalista"
+        },
+        "432": {
+            "title": "the Wandering Caretaker",
+            "id": 432,
+            "key": "Bard",
+            "name": "Bard"
+        },
+        "497": {
+            "title": "The Charmer",
+            "id": 497,
+            "key": "Rakan",
+            "name": "Rakan"
+        },
+        "498": {
+            "title": "the Rebel",
+            "id": 498,
+            "key": "Xayah",
+            "name": "Xayah"
+        },
+        "516": {
+            "title": "The Fire below the Mountain",
+            "id": 516,
+            "key": "Ornn",
+            "name": "Ornn"
+        }
+    }
+}
