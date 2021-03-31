@@ -1,0 +1,7 @@
+# writing a data file
+# xor data with bias
+# x0 x1 x2 y
+1 0 0 0
+1 0 1 1
+1 1 0 1
+1 1 1 0
