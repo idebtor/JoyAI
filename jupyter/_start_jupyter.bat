@@ -1,4 +1,5 @@
 rem -- start jupyter notebook here .bat file 
 pwd
-jupyter notebook
+rem -- jupyter notebook
+jupyter-lab
 pause 
