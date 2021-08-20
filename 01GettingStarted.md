@@ -24,7 +24,7 @@ Lecture Notes by idebtor@gmail.com
   3. Open local or remote .md file in Chrome.
   4. Enjoy nicely formatted HTML!
 
-There are two ways to join Piazza, go the www.piazza.com.
+There are two ways to join Piazza, connect to the www.piazza.com.
   - To join Piazza, you may need the following information and
     - School: __Handong Global University__
     - Course: __Artificial Intelligence Applications for ALL__
@@ -47,7 +47,7 @@ Anaconda is  a Python and R distribution package. It aims to provide everything 
   - At the beginning of installation, check the following option
       - Add Anaconda to my PATH environment variable as shown below:
 
-    <p align="center"> <img src="https://github.com/idebtor/KMOOC-ML/blob/master/ipynb/images/anaconda_check_path.png" width=500"> </p>
+    <p align="center"> <img src="https://github.com/idebtor/KMOOC-ML/blob/master/ipynb/images/anaconda_check_path.png" width=500> </p>
 
   - Need help? Follow [this guide](https://m.blog.naver.com/PostView.nhn?blogId=jooostory&logNo=221196479998&proxyReferer=https%3A%2F%2Fwww.google.com%2F).
 
@@ -105,7 +105,7 @@ After installation of __GitHub Desktop__, be a member if already not.
       ```
 
 ## Are ready for 'Hello World!' program in Python?
-  - Open a console. (You may use `Anacond Prompt`, `cmd` or `powershell` in Windows.)  
+  - Open a console. (You may use `Anaconda Prompt`, `cmd` or `powershell` in Windows.)  
 
   ```
   $ python
@@ -116,34 +116,38 @@ After installation of __GitHub Desktop__, be a member if already not.
   $
   ```
 
-## A few ways to start Jupyter notebook
+  ## A few ways to start Jupyter-lab or Jupyter notebook
 
-__Method 1__:
-This option always works: 
-  1. Go to the Windows menu `<Start> -> <Anaconda 3> -> <Anaconda Prompt>`
-  2. At a console, enter the following:
-  ```
-  (base) C:\Users\user> jupyter notebook
-  ```
 
-__Method 2__:
-This method may not work unless you have set PATH environment variable.
-  1. Using File Explorer, navigate to where your Jupyter notebook file is
-  2. Using File menu in File Explorer, click Open PowerShell(PS).
-  3. At PS console, enter the following:
-  ```
-  PS C:\> jupyter notebook
-  ```
 
-__Method 3__:
-This is one-line batch command file that runs Jupyter notebook.
-  1. Get a copy of the batch file `start_ipynb.bat` which is available at https://github.com/idebtor/JoyAI
-  2. Place the batch file at the folder where your notebook file is.
-  3. Double-click the batch file.
+  __Method 1__:
+  This method may not work unless you have set PATH environment variable.
+    1. Using File Explorer, navigate to where your Jupyter notebook file is
+    2. Using File menu in File Explorer, click Open PowerShell(PS).
+    3. At PS console, enter the following:
+    ```
+    PS C:\> jupyter-lab
+    PS C:\> jupyter notebook
+    ```
+    
+  __Method 2__:
+  This is one-line batch command file that runs Jupyter-lab.
+    1. Get a copy of the batch file `start_jupyter.bat` which is available at https://github.com/idebtor/JoyAI
+    2. Place the batch file at the folder where your notebook file is.
+    3. Double-click the batch file.
+    
+  __Method 3__:
+  This option always works:
+    1. Go to the Windows menu `<Start> -> <Anaconda 3> -> <Anaconda Prompt>`
+    2. At a console, enter the following:
+    ```
+    (base) C:\Users\user> jupyter-lab
+    (base) C:\Users\user> jupyter notebook
+    ```
 
-__Method 4__:
-This is not recommended since it is too slow to get into the notebook.
-  1. Using Anaconda Navigator, choose Jupyter Notebook.
+  __Method 4__:
+  This is not recommended since it is too slow to get into the notebook.
+    1. Using Anaconda Navigator, choose Jupyter Notebook or Jupyter-lab
 
 -----------------------------------------------
 
@@ -189,7 +193,9 @@ The following Jupyter notebook code provides a blank canvas in the notebook so t
 
 ## What's Next?
 
-- To learning Python and Numpy from the beginning, visit [this site](https://www.learnpython.org/en/Welcome). It is offered by learnpython.org.
+- About Markdown: [this site in Korean](https://theorydb.github.io/envops/2019/05/22/envops-blog-how-to-use-md/)
+
+- Learning Python and Numpy from the beginning, visit [this site](https://www.learnpython.org/en/Welcome). It is offered by learnpython.org.
 -
 
 ----------------------------
