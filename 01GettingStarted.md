@@ -1,4 +1,5 @@
 # Artificial Intelligence Applications for ALL
+### 모두를 위한 인공지능의 활용(모인활)
 
 Lecture Notes by idebtor@gmail.com
 -------------------
@@ -116,38 +117,42 @@ After installation of __GitHub Desktop__, be a member if already not.
   $
   ```
 
-  ## A few ways to start Jupyter-lab or Jupyter notebook
+## A few ways to start Jupyter-lab or Jupyter notebook
 
+__Method 1__:
+This method may not work unless you have set PATH environment variable.
 
+  1. Using File Explorer, navigate to where your Jupyter notebook file is
+  2. Using File menu in File Explorer, click Open PowerShell(PS).
+  3. At PS console, enter the following:
 
-  __Method 1__:
-  This method may not work unless you have set PATH environment variable.
-    1. Using File Explorer, navigate to where your Jupyter notebook file is
-    2. Using File menu in File Explorer, click Open PowerShell(PS).
-    3. At PS console, enter the following:
     ```
     PS C:\> jupyter-lab
     PS C:\> jupyter notebook
     ```
     
-  __Method 2__:
-  This is one-line batch command file that runs Jupyter-lab.
-    1. Get a copy of the batch file `start_jupyter.bat` which is available at https://github.com/idebtor/JoyAI
-    2. Place the batch file at the folder where your notebook file is.
-    3. Double-click the batch file.
+__Method 2__:
+This is one-line batch command file that runs Jupyter-lab.
+
+1. Get a copy of the batch file `start_jupyter.bat` which is available at https://github.com/idebtor/JoyAI
+1. Place the batch file at the folder where your notebook file is.
+1. Double-click the batch file.
     
-  __Method 3__:
-  This option always works:
-    1. Go to the Windows menu `<Start> -> <Anaconda 3> -> <Anaconda Prompt>`
-    2. At a console, enter the following:
-    ```
+__Method 3__:
+This option always works:
+
+1. Go to the Windows menu `<Start> -> <Anaconda 3> -> <Anaconda Prompt>`
+2. At a console, enter the following:
+
+```
     (base) C:\Users\user> jupyter-lab
     (base) C:\Users\user> jupyter notebook
-    ```
+```
 
-  __Method 4__:
-  This is not recommended since it is too slow to get into the notebook.
-    1. Using Anaconda Navigator, choose Jupyter Notebook or Jupyter-lab
+__Method 4__:
+This is not recommended since it is too slow to get into the notebook.
+
+1. Using Anaconda Navigator, choose Jupyter Notebook or Jupyter-lab
 
 -----------------------------------------------
 
