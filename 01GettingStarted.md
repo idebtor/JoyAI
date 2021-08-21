@@ -8,7 +8,7 @@ Lecture Notes by idebtor@gmail.com
 
   1. Read README.
   2. Read Syllabus.
-  3. Read '01GettingStarted' - this file
+  3. Read 'GettingStarted' - this file
   4. Follow instructions in '01GettingStarted' as soon as possible(ASAP).
 
   This is available at [github.com/idebtor/JoyAI](https://github.com/idebtor/JoyAI).
