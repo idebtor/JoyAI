@@ -55,23 +55,22 @@ Anaconda is  a Python and R distribution package. It aims to provide everything 
 #### After your installation
 Do the following in cmd windows or in PowerShell to check your successful installation; ($ is just a prompt of your console, >>> is a prompt from Python.)
 
-      ```
-      $ python
-      >>> Python 3.7.7 (default, May  6 2020, 11:45:54) [MSC v.1916 64 bit (AMD64)] :: Anaconda, Inc. on win32
-          Type "help", "copyright", "credits" or "license" for more information.
-      >>> import tensorflow as tf
-      >>> print(tf.__version__)
-      2.3.0
-      >>> import keras
-      Using TensorFlow backend
-      ```
+```
+  $ python
+  >>> Python 3.8.10 (default, May 19 2021, 11:45:54) [MSC v.1916 64 bit (AMD64)] :: Anaconda, Inc. on win32
+      Type "help", "copyright", "credits" or "license" for more information.
+  >>> import math
+  >>> math.sqrt(2)
+  1.4142135623730951
+  >>> exit()
+```
 
 #### Need more installation?
 Use the following command if you need more installation of packages (-U for upgrade only):
-  ```
+```
   $ pip install a_package_name
   $ pip install -U a_package_name              
-  ```
+```
 
 ## Install "Git" and "GitHub Desktop"
   - Install __git__ from [this site](https://git-scm.com/downloads) for your computer.
@@ -79,7 +78,7 @@ Use the following command if you need more installation of packages (-U for upgr
 
 After installation of __GitHub Desktop__, be a member if already not.
 
-  - Clone the GitHub `JoyAI` repository into your local computer:
+  - Clone the GitHub `JoyAI` repository into your local computer(e.g. `C:/github/joyai`):
     - https://github.com/idebtor/JoyAI  
 
   - How to clone a repository from GitHub:
@@ -89,6 +88,8 @@ After installation of __GitHub Desktop__, be a member if already not.
 
   - Then, in your computer, you may have the following github/JoyAI folder as shown below (`user` may be different in your system.):
     - ```C:\Users\user\Documents\GitHub\JoyAI```
+    - ```C:\github\joyai```
+    I recommend you make the path simple as possible like `C:\github\joyai\`
 
   - Since this `JoyAI` repository can be updated anytime, keep this local repository as "read-only".  Don't code yours here!.
   - Copy them into your own repository or your own local development folders in your computer you can easily access them.  They should look like the following:
