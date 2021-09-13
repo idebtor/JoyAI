@@ -1,8 +1,11 @@
-# Artificial Intelligence Applications for ALL
-### 모두를 위한 인공지능의 활용(모인활)
+그런즉 너희가 먹든지 마시든지 무엇을 하든지 다 하나님의 영광을 위하여 하라 (고전10:31)
 
-Lecture Notes by idebtor@gmail.com
--------------------
+----
+<img src="https://github.com/idebtor/JoyAI/blob/ffc2c5b30f75319d90b81de280a71c4c3db72e20/images/WelcomJoyAI-CrashPython.jpg?raw=true" width=1000>
+
+__NOTE:__ The following materials have been compiled and adapted from the numerous sources including my own. Please help me to keep this tutorial up-to-date by reporting any issues or questions. Send any comments or criticisms to `idebtor@gmail.com` Your assistances and comments will be appreciated.
+
+----
 # Getting Started
   __To get started__, do the first thing first:
 
@@ -13,23 +16,22 @@ Lecture Notes by idebtor@gmail.com
 
   This is available at [github.com/idebtor/JoyAI](https://github.com/idebtor/JoyAI).
 
-
 ## Three ways to view markdown(.md) files
 ### GitHub 
   0. View them always in github website automatically and better.
   1. GitHub does not support `LaTex` yet. You may not see the well-formatted math equations.
 ### Web browser
-  1. Install `Markdown Preview Plus` extension in your browser.
-  2. Go to `chrome://extensions 도구 더보기` in the browser setting 
+  1. Install `Markdown Preview Plus` extension in your browser(Chrome, Edge).
+  2. Go to `extensions, 도구 더보기 혹은 확장` in the browser's setting 
   3. Locate `Markdown Preview Plus` and click on the `DETAILS 세부정보`
-  4. Check the option `Allow access to file URLs 파일 URL에 대한 액세스 허용`
+  4. Check the option `Allow access to file URLs, 파일 URL에 대한 액세스 허용`
   5. Drag and drop ~.md file in your brower.
-  6. For `LaTex`, check the math in `Markdown Preview Plus` options. 
+  6. For `LaTex`, check the math option in `Markdown Preview Plus` icon in your brower top menubar'. 
   7. Enjoy nicely formatted HTML!
 ### MS `Code` 
   1. Install `Markdown All in One` & `Auto-Open Preview` extensions in your `Code`.
   2. Enjoy nicely formatted HTML!
-### Refer to my tutorial: <https://youtu.be/sS1viPcXDIo>
+### Refer to my tutorial: <https://youtu.be/sS1viPcXDIo> 
 
 There are two ways to join Piazza, connect to the www.piazza.com.
   - To join Piazza, you may need the following information and

@@ -1,4 +1,11 @@
-# JoyAI
+그런즉 너희가 먹든지 마시든지 무엇을 하든지 다 하나님의 영광을 위하여 하라 (고전10:31)
+
+----
+<img src="https://github.com/idebtor/JoyAI/blob/ffc2c5b30f75319d90b81de280a71c4c3db72e20/images/WelcomJoyAI-CrashPython.jpg?raw=true" width=1000>
+
+__NOTE:__ The following materials have been compiled and adapted from the numerous sources including my own. Please help me to keep this tutorial up-to-date by reporting any issues or questions. Send any comments or criticisms to `idebtor@gmail.com` Your assistances and comments will be appreciated.
+
+----
 
 ## "모두를 위한 인공지능의 활용"(GEK10109) 학습 자료실입니다. 
 
