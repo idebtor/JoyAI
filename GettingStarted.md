@@ -12,15 +12,18 @@ __NOTE:__ The following materials have been compiled and adapted from the numero
   1. Read README.
   2. Read Syllabus.
   3. Read 'GettingStarted' - this file
-  4. Follow instructions in '01GettingStarted' as soon as possible(ASAP).
+  4. Follow instructions in 'GettingStarted' as soon as possible(ASAP).
 
   This is available at [github.com/idebtor/JoyAI](https://github.com/idebtor/JoyAI).
 
+
 ## Three ways to view markdown(.md) files
+
 ### GitHub 
   0. View them always in github website automatically and better.
   1. GitHub does not support `LaTex` yet. You may not see the well-formatted math equations.
-### Web browser
+
+### Web Browser (Chrome/Edge)
   1. Install `Markdown Preview Plus` extension in your browser(Chrome, Edge).
   2. Go to `extensions, 도구 더보기 혹은 확장` in the browser's setting 
   3. Locate `Markdown Preview Plus` and click on the `DETAILS 세부정보`
@@ -28,11 +31,14 @@ __NOTE:__ The following materials have been compiled and adapted from the numero
   5. Drag and drop ~.md file in your brower.
   6. For `LaTex`, check the math option in `Markdown Preview Plus` icon in your brower top menubar'. 
   7. Enjoy nicely formatted HTML!
-### MS `Code` 
+
+### Visual Studio Code 
   1. Install `Markdown All in One` & `Auto-Open Preview` extensions in your `Code`.
   2. Enjoy nicely formatted HTML!
+
 ### Refer to my tutorial: <https://youtu.be/sS1viPcXDIo> 
 
+## Join Piazza
 There are two ways to join Piazza, connect to the www.piazza.com.
   - To join Piazza, you may need the following information and
     - School: __Handong Global University__
@@ -44,8 +50,8 @@ There are two ways to join Piazza, connect to the www.piazza.com.
 ## Install Anaconda
 Anaconda is  a Python and R distribution package. It aims to provide everything you need (python wise) for data science "out of the box".  It includes:
 -	The core python language
--	200+ python "packages" (libraries)
--	Spyder (IDE/editor) and Jupyter Notebook
+-	300+ python "packages" (libraries)
+-	Jupyter Lab, Jupyter Notebook, adn Spyder (IDE/editor)
 -	conda, Anaconda's own package manager, used for updating Anaconda and packages
 
 #### To install the anaconda:
