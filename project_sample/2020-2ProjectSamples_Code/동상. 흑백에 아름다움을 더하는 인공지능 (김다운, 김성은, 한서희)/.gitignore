@@ -1,0 +1,6 @@
+models/*
+.ipynb_checkpoints
+__pycache__
+*.pyc
+.vscode
+*.mp4
