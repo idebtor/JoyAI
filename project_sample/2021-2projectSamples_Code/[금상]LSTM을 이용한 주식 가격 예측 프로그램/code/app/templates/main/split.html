@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>주식 예측 프로그램</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+		<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}" />
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <noscript><link rel="stylesheet" href="{{ url_for('static', filename='assets/css/noscript.css') }}" /></noscript>
+    <style>
+      input{
+        border: none;
+        border-radius: 15px;
+        padding: 5px 10px;
+        text-align: center;
+        height: 30px;
+        width: 120px;
+        margin-left: 15px;
+        margin-bottom: 5px;
+      }
+    </style>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+
+				<!-- Header -->
+        <header id="header" class="alt" style="margin-top: -40px">
+          <h2>분할된 결과입니다! <i class="fas fa-poll"></i></h2>
+          <h6>X train shape : {{xt}}</h6>
+          <h6>Y train shape : {{yt}}</h6>
+          <h6>X test shape : {{xe}}</h6>
+          <h6>Y test shape : {{ye}}</h6>
+        </header>
+          <nav id="nav" style="margin-top: -50px;">
+          그럼 본격적으로 학습을 시켜봅시다! <i class="far fa-laugh-wink"></i><div stlye="height: 10px"><br></div>
+
+          <form id="form" action="./learn" method="post" style="font-size:15px; ">
+            <div>
+            input_dim  : <input type="number" name="input_dim" value="1" required/><br>
+            hidden_dim : <input type="number" name="hidden_dim" value="32" required/><br>
+            num_layers : <input type="number" name="num_layers" value="2" required/><br>
+            output_dim : <input type="number" name="output_dim" value="1" required/><br>
+            num_epochs : <input type="number" name="num_epochs" value="100" required/><br>
+            </div>
+            <br>
+            <input id="submit" type="submit" style="background: #eee; color: black !important; font-size: 18px !important; border: none !important;">
+          </form>
+          </nav>
+
+
+
+			</div>
+
+      <!-- Scripts -->
+      <script src="{{ url_for('static', filename='assets/js/jquery.min.js')}}"></script>
+      <script src="{{ url_for('static', filename='assets/js/jquery.scrollex.min.js')}}"></script>
+      <script src="{{ url_for('static', filename='assets/js/jquery.scrolly.min.js')}}"></script>
+      <script src="{{ url_for('static', filename='assets/js/browser.min.js')}}"></script>
+      <script src="{{ url_for('static', filename='assets/js/breakpoints.min.js')}}"></script>
+      <script src="{{ url_for('static', filename='assets/js/util.js')}}"></script>
+      <script src="{{ url_for('static', filename='assets/js/main.js')}}"></script>
+
+	</body>
+</html>

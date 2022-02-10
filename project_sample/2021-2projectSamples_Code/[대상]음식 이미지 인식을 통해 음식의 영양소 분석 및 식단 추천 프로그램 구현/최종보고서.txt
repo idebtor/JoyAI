@@ -1,0 +1,37 @@
+6조 최종보고서 (박요한, 이지성, 정은찬)
+1. 예비보고서
+
+ 1) 프로젝트 제목 (6조)
+
+음식 이미지 인식을 통해 음식의 영양소 분석 및 식단 추천 프로그램 구현
+ 
+
+ 2) 프로젝트 시작 계기
+
+다이어트나 건강한 식습관을 만들기 위해 균형 잡힌 식단을 갖춰 섭취하는 게 중요하다고 하지만, 모든 식탁에 필요한 영양소가 다 올라가지 않을 때가 많다. 이 프로젝트를 통해 사용자가 음식의 영양정보를 일일이 검색하는 수고를 덜어주고, 조금 더 손쉽게 영양소를 파악 및 본인의 식습관, 건강상태 등을 고려해서 음식을 선택할 수 있도록 도움을 주고자 한다
+ 
+
+ 3) 프로젝트 개요
+
+이 프로젝트는 ‘Food 101 Project’ 를 바탕으로 모델을 응용해서 사용할 것입니다. (https://github.com/robert-kamunde/Food101Project)
+TensorFlow 에 포함된 Keras ML을 사용합니다.
+Kaggle 에서 Food 101 data set 을 받습니다. (https://www.kaggle.com/dansbecker/food-101)
+이미지 데이터셋을 train, test set으로 나눠 train set으로 모델을 학습 시키고, test set으로 모델의 성능을 평가할 예정입니다.
+기존에 이미지를 인식하면 음식 이름만 결과로 내주는 모델을 수정하여 음식에 포함된 3대 영양소(탄단지)의 비율 및 칼로리, 부족한 영양소 정보를 제공하고 부족한 영양소를 포함하고 있는 음식을 함께 추천할 예정입니다.
+ 
+
+ 4) 기대효과
+
+음식 인식 및 분류 모델을 통해 사용자 자신이 주로 섭취하는 음식의 영양소를 파악할 수 있다.
+섭취하는 음식에 포함된 부족한 영양소를 사용자로 하여금 인식하게 하고 필요한 영양소를 채울 수 있는 음식을 파악할 수 있도록 도움을 주게 된다.
+2. 프로젝트 작업파일
+
+ 1) 프레젠테이션 파일: https://prezi.com/view/AgUoR9cBa3yFVHEVewNF/
+
+ 2) Code: https://drive.google.com/drive/folders/1lwfCeJFkLuSz85p1tDMxqSRd3tewg0J1?usp=sharing
+
+ 3) 참고(Source): https://github.com/robert-kamunde/Food101Project , https://www.kaggle.com/dansbecker/food-101
+
+3. 동영상 발표
+
+ 1) 동영상 링크: https://www.youtube.com/watch?v=QLcduXt9Dbg

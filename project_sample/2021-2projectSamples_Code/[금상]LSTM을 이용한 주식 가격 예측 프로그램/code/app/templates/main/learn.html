@@ -1,0 +1,402 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+		  <title>주식 예측 프로그램</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}" />
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <noscript><link rel="stylesheet" href="{{ url_for('static', filename='assets/css/noscript.css') }}" /></noscript>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<span class="logo"><img src="images/logo.svg" alt="" /></span>
+						<h1>학습결과</h1>
+						<p>학습이 완료되었습니다 :)<br />
+						<a href="./">다시하기</a> </p>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">Stock Price</a></li>
+							<li><a href="#first">Training Loss</a></li>
+							<li><a href="#second">Test Result</a></li>
+							<li><a href="#cta">Learn More</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="intro" class="main">
+
+
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>Stock Price</h2>
+										</header>
+                    <canvas id="myChart" width="800" height="400"></canvas>
+										<!--<p>Kaggle Open Source 코드가 궁금하다면?</p>
+										<ul class="actions">
+											<li><a href="https://www.kaggle.com/taronzakaryan/predicting-stock-price-using-lstm-model-pytorch" class="button">Kaggle로 이동</a></li>
+										</ul>-->
+									</div>
+								</div>
+							</section>
+
+              <section id="first" class="main">
+
+
+                <div class="spotlight">
+                  <div class="content">
+                    <header class="major">
+                      <h2>Training Loss</h2>
+                    </header>
+                    <canvas id="myChart2" width="800" height="400"></canvas>
+                    <!--<p>Kaggle Open Source 코드가 궁금하다면?</p>
+                    <ul class="actions">
+                      <li><a href="https://www.kaggle.com/taronzakaryan/predicting-stock-price-using-lstm-model-pytorch" class="button">Kaggle로 이동</a></li>
+                    </ul>-->
+                  </div>
+                </div>
+              </section>
+
+              <section id="second" class="main special">
+                <header class="major">
+                  <h2>Test Result</h2>
+                </header>
+                <!--
+                <ul class="features">
+                  <li>
+                    <span class="icon solid major style1 fa-code"></span>
+                    <h3>Ipsum consequat</h3>
+                    <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                  </li>
+                  <li>
+                    <span class="icon major style3 fa-copy"></span>
+                    <h3>Amed sed feugiat</h3>
+                    <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                  </li>
+                  <li>
+                    <span class="icon major style5 fa-gem"></span>
+                    <h3>Dolor nullam</h3>
+                    <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                  </li>
+                </ul>-->
+                <canvas id="myChart3" width="800" height="400"></canvas>
+              </section>
+						<!-- First Section
+							<section id="first" class="main special">
+								<header class="major">
+									<h2>Training Loss</h2>
+								</header>
+								<ul class="features">
+									<li>
+										<span class="icon solid major style1 fa-code"></span>
+										<h3>Ipsum consequat</h3>
+										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+									</li>
+									<li>
+										<span class="icon major style3 fa-copy"></span>
+										<h3>Amed sed feugiat</h3>
+										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+									</li>
+									<li>
+										<span class="icon major style5 fa-gem"></span>
+										<h3>Dolor nullam</h3>
+										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+									</li>
+								</ul>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
+               -->
+
+						<!-- Second Section
+							<section id="second" class="main special">
+								<header class="major">
+									<h2>Ipsum consequat</h2>
+									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
+									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+								</header>
+								<ul class="statistics">
+									<li class="style1">
+										<span class="icon solid fa-code-branch"></span>
+										<strong>5,120</strong> Etiam
+									</li>
+									<li class="style2">
+										<span class="icon fa-folder-open"></span>
+										<strong>8,192</strong> Magna
+									</li>
+									<li class="style3">
+										<span class="icon solid fa-signal"></span>
+										<strong>2,048</strong> Tempus
+									</li>
+									<li class="style4">
+										<span class="icon solid fa-laptop"></span>
+										<strong>4,096</strong> Aliquam
+									</li>
+									<li class="style5">
+										<span class="icon fa-gem"></span>
+										<strong>1,024</strong> Nullam
+									</li>
+								</ul>
+								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>-->
+
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<h2>Learn More</h2>
+									<p>이 프로젝트에 대해 추가적인 정보를 얻고 싶다면 아래 링크로 이동해보세요 :)</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="https://www.kaggle.com/taronzakaryan/predicting-stock-price-using-lstm-model-pytorch" class="button primary">Kaggle Open Source Code</a></li>
+										<li><a href="https://dschloe.github.io/python/python_edu/07_deeplearning/deep_learning_lstm/" class="button">Github Open Source Code</a></li>
+									</ul>
+								</footer>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>모두를 위한 인공지능의 활용</h2>
+							<p style="font-size: 18px;">본 강의는 수강생이 기계학습(machine learning)의 원리를 이해하고, 그 원리를 적용하여 문제를 해결함으로 기계 학습 문제들을 해결하는 코딩하는 능력을 기를 수 있도록 한다.
+4차 산업 혁명의 주요 부분을 차지하고 있는 소프트웨어와 기계학습을 통하여 이러한 기술 시대의 흐름에 대비한 계산적 사고력과 창의력을 향상하고, 문제 해결 역량을 갖추도록 하는 것이 목적이다.</p>
+							<ul class="actions">
+								<li><a href="https://github.com/idebtor/KMOOC-ML" class="button">Learn More</a></li>
+							</ul>
+						</section>
+						<section>
+							<h2>9조 - LSTM을 이용한 주식 가격 예측 프로그램</h2>
+							<dl class="alt">
+								<dt style="width:4em">신희주</dt>
+								<dd><a href="#">21800412@handong.edu</a></dd>
+								<dt style="width:4em">윤동혁</dt>
+								<dd><a href="#">22000471@handong.edu</a></dd>
+								<dt style="width:4em">김시은샘</dt>
+								<dd><a href="#">22100135@handong.edu</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+							</ul>
+						</section>
+						<p class="copyright">&copy; Handong Global University. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+    <script src="{{ url_for('static', filename='assets/js/jquery.min.js')}}"></script>
+    <script src="{{ url_for('static', filename='assets/js/jquery.scrollex.min.js')}}"></script>
+    <script src="{{ url_for('static', filename='assets/js/jquery.scrolly.min.js')}}"></script>
+    <script src="{{ url_for('static', filename='assets/js/browser.min.js')}}"></script>
+    <script src="{{ url_for('static', filename='assets/js/breakpoints.min.js')}}"></script>
+    <script src="{{ url_for('static', filename='assets/js/util.js')}}"></script>
+    <script src="{{ url_for('static', filename='assets/js/main.js')}}"></script>
+
+	</body>
+</html>
+
+
+<script>
+// Global parameters:
+// do not resize the chart canvas when its container does (keep at 600x400px)
+Chart.defaults.global.responsive = false;
+
+// define the chart data
+var chartData = {
+  labels : [{% for item in labels %}
+  "{{item}}",
+  {% endfor %}
+],
+  datasets : [{
+    label: '{{ legend }}',
+    fill: false,
+    lineTension: 0.1,
+    backgroundColor: "rgba(75,192,192,0.4)",
+    borderColor: "rgba(75,192,192,1)",
+    borderCapStyle: 'butt',
+    borderDash: [],
+    borderDashOffset: 0.0,
+    borderJoinStyle: 'miter',
+    pointBorderColor: "rgba(75,192,192,1)",
+    //pointBackgroundColor: "#fff",
+    pointBorderWidth: 1,
+    pointHoverRadius: 5,
+    pointHoverBackgroundColor: "rgba(75,192,192,1)",
+    pointHoverBorderColor: "rgba(220,220,220,1)",
+    pointHoverBorderWidth: 2,
+    pointRadius: 1,
+    pointHitRadius: 10,
+    data : [{% for item in values %}
+    {{item}},
+    {% endfor %}],
+    spanGaps: false
+  },
+  {
+    label: '{{ legend2 }}',
+    fill: false,
+    lineTension: 0.1,
+    backgroundColor: "rgba(89,75,192,0.4)",
+    borderColor: "rgba(89,75,192,1)",
+    borderCapStyle: 'butt',
+    borderDash: [],
+    borderDashOffset: 0.0,
+    borderJoinStyle: 'miter',
+    pointBorderColor: "rgba(89,75,192,1)",
+    //pointBackgroundColor: "#fff",
+    pointBorderWidth: 1,
+    pointHoverRadius: 5,
+    pointHoverBackgroundColor: "rgba(89,75,192,1)",
+    pointHoverBorderColor: "rgba(220,220,220,1)",
+    pointHoverBorderWidth: 2,
+    pointRadius: 1,
+    pointHitRadius: 10,
+    data : [{% for item2 in values2 %}
+    {{item2}},
+    {% endfor %}],
+    spanGaps: false
+    }]
+  }
+
+  var chartData2 = {
+    labels : [{% for item_h in labels_h %}
+    "{{item_h}}",
+    {% endfor %}
+  ],
+    datasets : [{
+      label: '{{ legend3 }}',
+      fill: false,
+      lineTension: 0.1,
+      backgroundColor: "rgba(75,192,192,0.4)",
+      borderColor: "rgba(75,192,192,1)",
+      borderCapStyle: 'butt',
+      borderDash: [],
+      borderDashOffset: 0.0,
+      borderJoinStyle: 'miter',
+      pointBorderColor: "rgba(75,192,192,1)",
+      //pointBackgroundColor: "#fff",
+      pointBorderWidth: 1,
+      pointHoverRadius: 5,
+      pointHoverBackgroundColor: "rgba(75,192,192,1)",
+      pointHoverBorderColor: "rgba(220,220,220,1)",
+      pointHoverBorderWidth: 2,
+      pointRadius: 1,
+      pointHitRadius: 10,
+      data : [{% for item in hist %}
+      {{item}},
+      {% endfor %}],
+      spanGaps: false
+    }]
+    }
+
+
+    var chartData3 = {
+      labels : [{% for item3 in y_label %}
+      "{{item3}}",
+      {% endfor %}
+    ],
+      datasets : [{
+        label: 'Preds',
+        fill: false,
+        lineTension: 0.1,
+        backgroundColor: "rgba(75,192,192,0.4)",
+        borderColor: "rgba(75,192,192,1)",
+        borderCapStyle: 'butt',
+        borderDash: [],
+        borderDashOffset: 0.0,
+        borderJoinStyle: 'miter',
+        pointBorderColor: "rgba(75,192,192,1)",
+        //pointBackgroundColor: "#fff",
+        pointBorderWidth: 1,
+        pointHoverRadius: 5,
+        pointHoverBackgroundColor: "rgba(75,192,192,1)",
+        pointHoverBorderColor: "rgba(220,220,220,1)",
+        pointHoverBorderWidth: 2,
+        pointRadius: 1,
+        pointHitRadius: 10,
+        data : [{% for ytp in y_test_pred %}
+        {{ytp}},
+        {% endfor %}],
+        spanGaps: false
+      },
+      {
+        label: 'Real',
+        fill: false,
+        lineTension: 0.1,
+        backgroundColor: "rgba(89,75,192,0.4)",
+        borderColor: "rgba(89,75,192,1)",
+        borderCapStyle: 'butt',
+        borderDash: [],
+        borderDashOffset: 0.0,
+        borderJoinStyle: 'miter',
+        pointBorderColor: "rgba(89,75,192,1)",
+        //pointBackgroundColor: "#fff",
+        pointBorderWidth: 1,
+        pointHoverRadius: 5,
+        pointHoverBackgroundColor: "rgba(89,75,192,1)",
+        pointHoverBorderColor: "rgba(220,220,220,1)",
+        pointHoverBorderWidth: 2,
+        pointRadius: 1,
+        pointHitRadius: 10,
+        data : [{% for yt in y_test %}
+        {{yt}},
+        {% endfor %}],
+        spanGaps: false
+        }]
+      }
+
+  // get chart canvas
+  var ctx = document.getElementById("myChart").getContext("2d");
+
+  var ctx2 = document.getElementById("myChart2").getContext("2d");
+
+  var ctx3 = document.getElementById("myChart3").getContext("2d");
+
+  // create the chart using the chart canvas
+  var myChart = new Chart(ctx, {
+    type: 'line',
+    data: chartData,
+  });
+
+  var myChart2 = new Chart(ctx2, {
+    type: 'line',
+    data: chartData2,
+  });
+
+  var myChart3 = new Chart(ctx3, {
+    type: 'line',
+    data: chartData3,
+  });
+</script>

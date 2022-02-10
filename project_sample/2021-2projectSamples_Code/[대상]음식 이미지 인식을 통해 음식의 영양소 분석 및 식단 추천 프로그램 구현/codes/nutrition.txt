@@ -1,0 +1,8 @@
+apple_pie,296,56,3,41,fried_eggs
+bibimbap,350,77,10,13,tuna
+greek_salad,179,16,11,73,sweet_potato
+tacos,210,39,18,43,dubu_kimchi
+frozen_yogurt,120,72,13,15,pork_belly
+french_toast,228,43,14,43,cooked_beans
+club_sandwich,220,36,31,33,chicken_breast
+chicken_curry,243,12,47,41,corn

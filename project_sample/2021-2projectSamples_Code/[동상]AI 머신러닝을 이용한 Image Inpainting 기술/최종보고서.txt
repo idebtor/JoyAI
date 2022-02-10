@@ -1,0 +1,45 @@
+4조 최종 보고서 (한현수, 한수정, 제서윤)
+1. 프로젝트 제목
+
+AI 머신러닝을 이용한 Image Inpainting 기술
+
+ 
+
+2. 프로젝트 시작 계기
+
+Inpainting 기술은 미술 작품들의 손상되거나 누락된 부분을 채워 원본처럼 복구하는 기술이다. 이 기술을 통해 많은 유물 및 미술품을 복구할 수 있었다. 그러나 기존의 원본처럼 복구하는 기술에 더하여 보정 기술을 추가하여 더 나은 결과물을 만들 수 있으면 어떨까하는 생각이 들어 AI 머신러닝을 이용한 Image Inpainting 기술에 대해 알아보게 되었다.
+
+최신 AI 머신러닝을 이용한 Image Inpainting 기술은 기존의 손상된 미술 작품이나 사진 등을 복원하여 볼 수 있는 기술에서 더 나아가 사진 보정 용도로도 사용 가능하여 피부 결점 및 악세서리 제거, 사진을 덮는 로고나 텍스트 제거, 사진 속 원치 않은 부분 삭제 등등 많은 보정 기능이 가능하다.
+
+잘 나온 인생사진의 배경 뒤 지나가는 사람이 찍혔거나 인터넷에서 저장한 좋아하는 연예인 사진에 로고가 박혀있다면 이 기회에 image inpainting 기술을 사용하여 제거하는 것도 좋은 방법인 듯 하다.  
+
+ 
+
+3. 프로젝트 개요
+
+우리 프로젝트는 Aggregated Contextual Transformations for High-Resolution Image Inpainting 이라는 논문의 내용을 활용한다.
+
+Pre-Trained된 GAN 모델을 가져온다.
+
+모델을 Colab에서 사용자가 사진을 올리고 마스킹을 하면 그 부분이 사라진 자연스러운 사진을 보여준다.
+
+ 
+
+4. 기대효과
+
+이 프로젝트는  머신러닝 기반 inpainting 기술을 바탕으로 이미지에서 불필요한 부분을 자연스럽게 지울 수 있어 원하는 이미지로 바꿀 수 있다. 
+
+오래된 사진 개선, 주름 및 피부 결점 제거, 여행 사진에서 관광객 사람들 제거, 이미지에서 텍스트 또는 로고 제거 등등 다양한 기대 효과가 나타난다. 
+
+앞으로의 사진 편집 프로그램의 기술을 한단계 더 나아가게 한다.
+
+[2] 프로젝트 작업파일
+
+Data : OwnData.zip 
+Data: https://drive.google.com/file/d/1NDLNVfAhatvg5S6rXUwnGu_1ZGjSrqFp/view?usp=sharing
+Source code : AI_for_All_Project_team4.ipynb
+PPT : Image_Inpainting-team_4.pptx 
+[3] 동영상 발표 Link
+
+
+링크 : https://youtu.be/uduL1H2--6E

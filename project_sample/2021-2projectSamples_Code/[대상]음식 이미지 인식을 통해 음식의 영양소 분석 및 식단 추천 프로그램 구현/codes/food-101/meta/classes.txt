@@ -1,0 +1,8 @@
+apple_pie
+bibimbap
+chicken_curry
+club_sandwich
+french_toast
+frozen_yogurt
+greek_salad
+tacos

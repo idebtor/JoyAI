@@ -1,0 +1,38 @@
+10조 최종보고서 (이종무, 안지원, 이향우)
+10조 예비보고서
+모두를 위한 인공지능 활용
+10조 이종무, 안지원, 이향우
+
+1-1. 프로젝트 제목 (10조)
+
+GTZAN을 활용한 오디오 분석을 통해 음악 장르 분류 및 음악 추천하기
+
+1-2. 프로젝트 시작 계기
+
+팀원 모두 음악을 좋아한다는 공통점을 갖고 있었고, 음악과 관련된 데이터셋으로 인공지능 학습을 해보고 싶었다. 그래서 여러 음악 관련 기능 중에서 음악 스트리밍 애플리케이션에서 가장 중요하다고 생각되는 음악 추천 기능을 직접 만들기로 하였다.
+본 주제는 프로젝트를 개발하는 팀원뿐만 아니라 프로젝트 결과물의 체험자 또한 흥미로움을 느낄 것으로 생각되었다.
+오디오 파일을 통해서 인공지능을 학습시킨다는 부분에서 흥미를 느꼈고 오디오 데이터를 처리하는 과정이 수로 이루어진 데이터를 다루는 것과 다르기에 이 주제를 선택하게 되었다.
+1-3. 프로젝트 개요
+
+본 프로젝트는 아래의 Open Source와 Dataset을 바탕으로 진행될 것입니다.
+Open Source: https://www.kaggle.com/andradaolteanu/work-w-audio-data-visualise-classify-recommend
+Dataset: https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification
+
+위에 명시된 kaggle에서 dataset을 받는다.
+GTZAN Dataset을 가지고 모델을 학습시킨다.
+scikit-learn을 이용하여 입력된 오디오를 분석하고, 학습된 모델을 통해 장르를 분석한다.
+3번에서 분석된 결과를 통해 입력된 오디오가 가장 비슷한 상위 5개 음악을 추천한다.
+1-4. 기대효과
+
+인공지능이 음악과 소리를 인식하고 분석하는 방식에 대해 배우고, 학습과 평가에 사용될 데이터를 이용해 모델을 학습시키는 과정을 직접 따라가며 인공지능의 설계를 더 자세히 이해할 수 있다.
+본 프로젝트는 인공지능이 음악을 듣고 조화로움의 정도 또는 신남의 정도, 슬픔의 정도 등을 판단할 수 있게 하는 기술의 발판이 될 수 있다고 생각된다.
+본 프로젝트는 물체를 인식할 때 정확도를 높일 수 있다고 생각된다. 예를 들어 생물의 경우는 영상 및 이미지를 분석하여 인식하였는데, 오디오 분석을 추가하면 울음소리를 활용하여 더 정확한 판단을 끌어낼 수가 있다.
+2. 프로젝트 작업 파일
+
+Pdf : 10_Final_Presentation_PPT.pdf
+Data : https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genreclassification
+Open Source : https://www.kaggle.com/andradaolteanu/work-w-audio-datavisualise-classify-recommend
+Code : https://github.com/AnJW-HGU/2021AI-Music.git     10_Code.zip
+5. 동영상 발표 링크
+
+https://youtu.be/DCYB1rjEwF8

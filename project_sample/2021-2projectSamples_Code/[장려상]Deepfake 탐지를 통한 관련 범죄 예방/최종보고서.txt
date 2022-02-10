@@ -1,0 +1,42 @@
+13조 최종 보고서 (정예은, 박정은, 박인권)
+13조 최종 보고서 (정예은, 박정은, 박인권)
+
+1. 예비 보고서
+(1) 프로젝트 제목
+
+Deepfake 탐지를 통한 관련 범죄 예방
+ 
+
+(2) 프로젝트 시작 계기
+
+'딥페이크'는 AI가 학습할 때 필요한 딥 러닝기술과 페이크(Fake)의 합성어로 AI를 기반으로 인간 이미지를 합성하는 기술이다. AI기술이 활발하게 적용되면서 새로운 기술로 떠오른 딥페이크는 진짜와 가짜를 구분하기 어려울 정도로 기술이 발전하면서 범죄에 악용되고 있다. 이러한 범죄를 잡아내는 딥페이크 탐지에 관하여  소개하고 싶다. 
+ 
+
+(3) 프로젝트 개요
+
+이 프로젝트는 https://github.com/abhijitjadhav1998/Deepfake_detection_using_deep_learning 을 바탕으로 진행될 것이다.
+github에서 dataset을 받아 사용할 예정이며 RestNet CNN 및 LSTM을 사용해서 모델을 학습시킬 예정이다.
+ 
+
+(4) 기대효과
+
+딥페이크를 활용한 범죄에 대해서 예방하기 위한 방향으로 사용할 수 있을 것 같다.
+어렵고 접근성이 높은 부분보다 일반인들도 더욱 간단하고 쉽게 접근 할 수 있게끔 적용할 수 있을 것 같다.
+
+2. 프로젝트 작업 파일
+
+
+프로젝트 작업 파일:
+
+Source_code.zip (소스코드),
+
+https://www.kaggle.com/c/deepfake-detection-challenge/rules (data 파일),
+
+https://github.com/abhijitjadhav1998/Deepfake_detection_using_deep_learning(github)
+
+
+PPT: team_13.pdf
+
+
+3. 동영상 발표
+Link: https://youtu.be/Uke5NX_flHk
